@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Python + Selenium 小技巧之清空输入框文字</title>
+      <link href="/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/"/>
+      <url>/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Python-Selenium-小技巧之清空输入框文字"><a href="#Python-Selenium-小技巧之清空输入框文字" class="headerlink" title="Python + Selenium 小技巧之清空输入框文字"></a>Python + Selenium 小技巧之清空输入框文字</h1><h4 id="思路一：直接使用clear-方法删除文字"><a href="#思路一：直接使用clear-方法删除文字" class="headerlink" title="思路一：直接使用clear()方法删除文字"></a>思路一：直接使用<code>clear()</code>方法删除文字</h4><pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time<span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriverbrowser <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span><span class="token punctuation">)</span> browser<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"https://www.baidu.com"</span><span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>baidu_input <span class="token operator">=</span> browser<span class="token punctuation">.</span>find_element_by_id<span class="token punctuation">(</span><span class="token string">"kw"</span><span class="token punctuation">)</span>baidu_input<span class="token punctuation">.</span>send_keys<span class="token punctuation">(</span><span class="token string">"Python Selenium"</span><span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token keyword">try</span><span class="token punctuation">:</span>    baidu_input<span class="token punctuation">.</span>clear<span class="token punctuation">(</span><span class="token punctuation">)</span>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Passed: Clear Success"</span><span class="token punctuation">)</span><span class="token keyword">except</span> Exception <span class="token keyword">as</span> e<span class="token punctuation">:</span>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Failed"</span><span class="token punctuation">,</span> format<span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>browser<span class="token punctuation">.</span>quit<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre><h4 id="思路二：模拟键盘操作使用全选退格删除文字"><a href="#思路二：模拟键盘操作使用全选退格删除文字" class="headerlink" title="思路二：模拟键盘操作使用全选退格删除文字"></a>思路二：模拟键盘操作使用全选退格删除文字</h4><p>从用户操作出发，若想清除一个输入框中已存在的文字该怎么操作。我会使用<code>Ctrl + A</code>快捷键对输入框的内容进行全选，然后使用退格键，即可清空。 </p><p>在<code>selenium</code>中就为我们提供了一个<code>Keys</code>类，其中提供了很多常用的特殊按键。我们将其导入，看看使用它们是怎么来清除文字的。</p><pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time<span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriver<span class="token keyword">from</span> selenium<span class="token punctuation">.</span>webdriver<span class="token punctuation">.</span>common<span class="token punctuation">.</span>keys <span class="token keyword">import</span> Keysbrowser <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span><span class="token punctuation">)</span> browser<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"https://www.baidu.com"</span><span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>baidu_input <span class="token operator">=</span> browser<span class="token punctuation">.</span>find_element_by_id<span class="token punctuation">(</span><span class="token string">"kw"</span><span class="token punctuation">)</span>baidu_input<span class="token punctuation">.</span>send_keys<span class="token punctuation">(</span><span class="token string">"Python Selenium"</span><span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token keyword">try</span><span class="token punctuation">:</span>    baidu_input<span class="token punctuation">.</span>send_keys<span class="token punctuation">(</span>Keys<span class="token punctuation">.</span>CONTROL <span class="token operator">+</span> <span class="token string">'a'</span><span class="token punctuation">)</span>    baidu_input<span class="token punctuation">.</span>send_keys<span class="token punctuation">(</span>Keys<span class="token punctuation">.</span>BACKSPACE<span class="token punctuation">)</span>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Passed: Clear Success"</span><span class="token punctuation">)</span><span class="token keyword">except</span> Exception <span class="token keyword">as</span> e<span class="token punctuation">:</span>    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Failed"</span><span class="token punctuation">,</span> format<span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>browser<span class="token punctuation">.</span>quit<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自动化测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python + Selenium 小技巧之切换浏览器窗口</title>
+      <link href="/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/"/>
+      <url>/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Python-Selenium-小技巧之切换浏览器窗口"><a href="#Python-Selenium-小技巧之切换浏览器窗口" class="headerlink" title="Python + Selenium 小技巧之切换浏览器窗口"></a>Python + Selenium 小技巧之切换浏览器窗口</h1><p>浏览器大多页面中的链接，点击后就会打开一个新的窗口，这时就需要把窗口切换过去，才能继续执行相关的操作。</p><p>这里为了演示方便，我们预先通过执行js来新建出几个窗口。</p><pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time<span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriverbrowser <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span><span class="token punctuation">)</span>js <span class="token operator">=</span> <span class="token string">'window.open("https://cn.bing.com/");'</span>browser<span class="token punctuation">.</span>execute_script<span class="token punctuation">(</span>js<span class="token punctuation">)</span></code></pre><p>因为每个窗口都有一个<strong>句柄(handle)</strong>，代表当前窗口，需要操作哪个页面的窗口，切换到窗口对应的句柄。</p><h4 id="思路一：通过句柄来切换窗口"><a href="#思路一：通过句柄来切换窗口" class="headerlink" title="思路一：通过句柄来切换窗口"></a>思路一：通过句柄来切换窗口</h4><pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time<span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriverbrowser <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true"># 在当前浏览器中访问网易邮箱</span>browser<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'https://www.126.com'</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true"># 新开一个窗口，通过执行js来新开一个窗口</span>js <span class="token operator">=</span> <span class="token string">'window.open("https://cn.bing.com/");'</span>browser<span class="token punctuation">.</span>execute_script<span class="token punctuation">(</span>js<span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true"># 输出当前窗口句柄（网易邮箱）</span>Netease_handle <span class="token operator">=</span> browser<span class="token punctuation">.</span>current_window_handle<span class="token comment" spellcheck="true"># 获取当前窗口句柄集合（列表类型）</span>handles <span class="token operator">=</span> browser<span class="token punctuation">.</span>window_handles<span class="token keyword">print</span><span class="token punctuation">(</span>handles<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># 输出句柄集合</span><span class="token comment" spellcheck="true"># ['CDwindow-E9B85270B51D42AF7369D81B9AA70FFE',</span><span class="token comment" spellcheck="true"># 'CDwindow-90004FD79A0F59EE057846B34D0E7327']</span><span class="token comment" spellcheck="true"># 获取必应窗口</span>bing_handle <span class="token operator">=</span> None<span class="token keyword">for</span> handle <span class="token keyword">in</span> handles<span class="token punctuation">:</span>    <span class="token keyword">if</span> handle <span class="token operator">!=</span> Netease_handle<span class="token punctuation">:</span>        bing_handle <span class="token operator">=</span> handle<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'switch to '</span><span class="token punctuation">,</span> handle<span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 输出当前窗口句柄（必应）</span>browser<span class="token punctuation">.</span>switch_to<span class="token punctuation">.</span>window<span class="token punctuation">(</span>Netease_handle<span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>browser<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 关闭当前窗口（必应）</span><span class="token comment" spellcheck="true"># 切换回网易邮箱窗口</span>browser<span class="token punctuation">.</span>switch_to<span class="token punctuation">.</span>window<span class="token punctuation">(</span>bing_handle<span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>browser<span class="token punctuation">.</span>quit<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre><h4 id="思路二：根据浏览器页签title进行窗口切换"><a href="#思路二：根据浏览器页签title进行窗口切换" class="headerlink" title="思路二：根据浏览器页签title进行窗口切换"></a>思路二：根据浏览器页签<code>title</code>进行窗口切换</h4><p>其实这种方法也用到了句柄，与前面不同的是，这里使用了浏览器页签的<code>title</code>。</p><pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> time<span class="token keyword">from</span> selenium <span class="token keyword">import</span> webdriverbrowser <span class="token operator">=</span> webdriver<span class="token punctuation">.</span>Chrome<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true"># 在当前浏览器中访问网易邮箱</span>browser<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'https://www.126.com'</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true"># 新打开两个窗口</span>js <span class="token operator">=</span> <span class="token string">'window.open("https://www.qq.com/");'</span>browser<span class="token punctuation">.</span>execute_script<span class="token punctuation">(</span>js<span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>js <span class="token operator">=</span> <span class="token string">'window.open("https://cn.bing.com/");'</span>browser<span class="token punctuation">.</span>execute_script<span class="token punctuation">(</span>js<span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token comment" spellcheck="true"># 拿到所有的窗口</span>allHandles <span class="token operator">=</span> browser<span class="token punctuation">.</span>window_handles<span class="token comment" spellcheck="true"># 根据窗口的title进行URL切换</span><span class="token keyword">for</span> handle <span class="token keyword">in</span> allHandles<span class="token punctuation">:</span>    <span class="token keyword">if</span> browser<span class="token punctuation">.</span>title<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">"腾讯"</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">:</span>        browser<span class="token punctuation">.</span>switch_to_window<span class="token punctuation">(</span>handle<span class="token punctuation">)</span>time<span class="token punctuation">.</span>sleep<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span>browser<span class="token punctuation">.</span>quit<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre><p>注：在<code>find()</code>方法中填写的Title，只需填入浏览器页签的部分Title内容即可。例如本例中为了切换至<code>https://www.qq.com/</code>页面，其全称实际是<code>腾讯首页</code>，但这里只输入<code>腾讯</code>即可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自动化测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/08/21/hello-world/"/>
+      <url>/2019/08/21/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! </p><p>You can check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows Git初始化配置</title>
+      <link href="/2018/08/05/windows-git-chu-shi-hua-pei-zhi/"/>
+      <url>/2018/08/05/windows-git-chu-shi-hua-pei-zhi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Windows-Git初始化配置"><a href="#Windows-Git初始化配置" class="headerlink" title="Windows Git初始化配置"></a>Windows Git初始化配置</h1><p>1、Git安装完毕后，从开始菜单中找到Git Bash，双击进入Git Shell界面</p><p>2、配置Name和Email</p><p>命令格式参考：<br><code>git config --global user.name "your name"</code><br><code>git config --global user.email "your email address"</code></p><p>3、生成Public/Private RSA Key</p><p>命令格式参考：<br><code>ssh-keygen -C "your email address" -t rsa</code><br><img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190828192708.png" alt=""></p><p>这里有一些注意事项：</p><ul><li>设置Public RSA Key的保存位置，直接回车采用默认地址；</li><li>设置一个密码，并再次输入确认(<font color="#dd00dd"><strong>这里不建议设置，方便本地使用</strong></font>)</li><li>Public RSA Key的保存路径：c:\users\username.ssh\id_rsa.pub<br><img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190828192736.png" alt=""></li></ul><p>4、将Public Key告知Github</p><ul><li>Home Page：<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> 。</li><li>进入Account Settings页面，打开SSH Keys，点击“Add SSH Key”。</li><li>在本地打开c:\users\username.ssh\id_rsa.pub，把里面的内容全部Copy到Key对应的输入框内，点击“Add Key”。</li></ul><p>5、添加SSH信任<a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>站点<br><img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190828192744.png" alt=""></p><p>6、Clone Repositories<br><img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190828192750.png" alt=""></p><p>需要注意的是：</p><ul><li>版本库地址格式：<code>git@github.com:your_resp_address</code>；</li><li>保存目录的最后一级不能Exist； </li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

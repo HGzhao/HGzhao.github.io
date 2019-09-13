@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://HGzhao.github.io/"/>
-  <updated>2019-09-08T14:17:19.851Z</updated>
+  <updated>2019-09-13T14:25:36.810Z</updated>
   <id>https://HGzhao.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VS Code 最全快捷键攻略(附中文释义)</title>
+    <link href="https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/"/>
+    <id>https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/</id>
+    <published>2019-09-11T12:12:12.000Z</published>
+    <updated>2019-09-13T14:25:36.810Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;VS-Code-最全快捷键攻略-附中文释义&quot;&gt;&lt;a href=&quot;#VS-Code-最全快捷键攻略-附中文释义&quot; class=&quot;headerlink&quot; title=&quot;VS Code 最全快捷键攻略(附中文释义)&quot;&gt;&lt;/a&gt;VS Code
+        
+      
+    
+    </summary>
+    
+      <category term="VSCode" scheme="https://HGzhao.github.io/categories/VSCode/"/>
+    
+    
+      <category term="Windows" scheme="https://HGzhao.github.io/tags/Windows/"/>
+    
+      <category term="VSCode" scheme="https://HGzhao.github.io/tags/VSCode/"/>
+    
+  </entry>
   
   <entry>
     <title>Python + Selenium 小技巧之清空输入框文字</title>

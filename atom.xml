@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://HGzhao.github.io/"/>
-  <updated>2019-09-13T14:25:36.810Z</updated>
+  <updated>2019-09-23T11:47:32.297Z</updated>
   <id>https://HGzhao.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>VS Code 最全快捷键攻略(附中文释义)</title>
-    <link href="https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/"/>
-    <id>https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/</id>
-    <published>2019-09-11T12:12:12.000Z</published>
-    <updated>2019-09-13T14:25:36.810Z</updated>
+    <title>持之以恒 VS 半途而废</title>
+    <link href="https://HGzhao.github.io/2019/09/21/quotations-persevere-vs-halfway-up/"/>
+    <id>https://HGzhao.github.io/2019/09/21/quotations-persevere-vs-halfway-up/</id>
+    <published>2019-09-21T03:13:31.000Z</published>
+    <updated>2019-09-23T11:47:32.297Z</updated>
     
     <summary type="html">
     
@@ -29,14 +29,128 @@
       
         
         
-          &lt;h1 id=&quot;VS-Code-最全快捷键攻略-附中文释义&quot;&gt;&lt;a href=&quot;#VS-Code-最全快捷键攻略-附中文释义&quot; class=&quot;headerlink&quot; title=&quot;VS Code 最全快捷键攻略(附中文释义)&quot;&gt;&lt;/a&gt;VS Code
+          &lt;h1 id=&quot;持之以恒-VS-半途而废&quot;&gt;&lt;a href=&quot;#持之以恒-VS-半途而废&quot; class=&quot;headerlink&quot; title=&quot;持之以恒 VS 半途而废&quot;&gt;&lt;/a&gt;持之以恒 VS
         
       
     
     </summary>
     
-      <category term="VSCode" scheme="https://HGzhao.github.io/categories/VSCode/"/>
+      <category term="碎碎念" scheme="https://HGzhao.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
+    
+      <category term="碎碎念" scheme="https://HGzhao.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 语法学习笔记</title>
+    <link href="https://HGzhao.github.io/2019/09/18/markdown-syntax-learn-note/"/>
+    <id>https://HGzhao.github.io/2019/09/18/markdown-syntax-learn-note/</id>
+    <published>2019-09-18T12:51:43.000Z</published>
+    <updated>2019-09-28T06:19:38.021Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Markdown-语法学习笔记&quot;&gt;&lt;a href=&quot;#Markdown-语法学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法学习笔记&quot;&gt;&lt;/a&gt;Markdown
+        
+      
+    
+    </summary>
+    
+      <category term="Efficiency" scheme="https://HGzhao.github.io/categories/Efficiency/"/>
+    
+    
+      <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
+    
+      <category term="Markdown" scheme="https://HGzhao.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visual Studio 最常用的快捷键</title>
+    <link href="https://HGzhao.github.io/2019/09/16/vs-keyboard-shortcuts/"/>
+    <id>https://HGzhao.github.io/2019/09/16/vs-keyboard-shortcuts/</id>
+    <published>2019-09-16T13:00:01.000Z</published>
+    <updated>2019-09-28T06:19:38.024Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Visual-Studio-最常用的快捷键&quot;&gt;&lt;a href=&quot;#Visual-Studio-最常用的快捷键&quot; class=&quot;headerlink&quot; title=&quot;Visual Studio 最常用的快捷键&quot;&gt;&lt;/a&gt;Visual Studio
+        
+      
+    
+    </summary>
+    
+      <category term="Efficiency" scheme="https://HGzhao.github.io/categories/Efficiency/"/>
+    
+    
+      <category term="Visual Studio" scheme="https://HGzhao.github.io/tags/Visual-Studio/"/>
+    
+      <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之等待</title>
+    <link href="https://HGzhao.github.io/2019/09/14/python-selenium-waiting/"/>
+    <id>https://HGzhao.github.io/2019/09/14/python-selenium-waiting/</id>
+    <published>2019-09-14T06:15:15.000Z</published>
+    <updated>2019-09-21T01:51:37.622Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-小技巧之等待&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之等待&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium 小技巧之等待&quot;&gt;&lt;/a&gt;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VS Code 快捷键最全攻略(附中文释义)</title>
+    <link href="https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/"/>
+    <id>https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/</id>
+    <published>2019-09-11T12:12:12.000Z</published>
+    <updated>2019-09-23T11:47:32.300Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;VS-Code-快捷键最全攻略-附中文释义&quot;&gt;&lt;a href=&quot;#VS-Code-快捷键最全攻略-附中文释义&quot; class=&quot;headerlink&quot; title=&quot;VS Code 快捷键最全攻略(附中文释义)&quot;&gt;&lt;/a&gt;VS Code
+        
+      
+    
+    </summary>
+    
+      <category term="Efficiency" scheme="https://HGzhao.github.io/categories/Efficiency/"/>
+    
+    
+      <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
     
       <category term="Windows" scheme="https://HGzhao.github.io/tags/Windows/"/>
     
@@ -49,7 +163,7 @@
     <link href="https://HGzhao.github.io/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/"/>
     <id>https://HGzhao.github.io/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/</id>
     <published>2019-09-04T12:00:44.000Z</published>
-    <updated>2019-09-08T14:17:19.851Z</updated>
+    <updated>2019-09-21T01:51:37.625Z</updated>
     
     <summary type="html">
     
@@ -79,7 +193,7 @@
     <link href="https://HGzhao.github.io/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/"/>
     <id>https://HGzhao.github.io/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/</id>
     <published>2019-08-29T11:19:00.000Z</published>
-    <updated>2019-09-08T14:15:27.987Z</updated>
+    <updated>2019-09-28T06:19:38.022Z</updated>
     
     <summary type="html">
     
@@ -109,7 +223,7 @@
     <link href="https://HGzhao.github.io/2019/08/21/hello-world/"/>
     <id>https://HGzhao.github.io/2019/08/21/hello-world/</id>
     <published>2019-08-21T00:00:00.000Z</published>
-    <updated>2019-09-08T08:35:36.610Z</updated>
+    <updated>2019-09-23T11:47:32.302Z</updated>
     
     <summary type="html">
     
@@ -117,14 +231,14 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! &lt;/p&gt;
-&lt;p&gt;You can check &lt;a href=&quot;https://hexo.io/docs/&quot;
+          &lt;p&gt;From WordPress to Hexo. Hello Hexo, Hello World!&lt;/p&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!
         
       
     
     </summary>
     
-      <category term="Hexo" scheme="https://HGzhao.github.io/categories/Hexo/"/>
+      <category term="Uncategorized" scheme="https://HGzhao.github.io/categories/Uncategorized/"/>
     
     
       <category term="Hexo" scheme="https://HGzhao.github.io/tags/Hexo/"/>
@@ -132,11 +246,11 @@
   </entry>
   
   <entry>
-    <title>Windows Git初始化配置</title>
-    <link href="https://HGzhao.github.io/2018/08/05/windows-git-chu-shi-hua-pei-zhi/"/>
-    <id>https://HGzhao.github.io/2018/08/05/windows-git-chu-shi-hua-pei-zhi/</id>
-    <published>2018-08-05T11:40:53.000Z</published>
-    <updated>2019-09-08T10:29:48.617Z</updated>
+    <title>Python小应用系列之制作个性微信好友墙</title>
+    <link href="https://HGzhao.github.io/2019/07/15/pythonapps-wechat-photo-wall/"/>
+    <id>https://HGzhao.github.io/2019/07/15/pythonapps-wechat-photo-wall/</id>
+    <published>2019-07-15T14:00:03.000Z</published>
+    <updated>2019-10-07T10:26:17.101Z</updated>
     
     <summary type="html">
     
@@ -144,18 +258,326 @@
       
         
         
-          &lt;h1 id=&quot;Windows-Git初始化配置&quot;&gt;&lt;a href=&quot;#Windows-Git初始化配置&quot; class=&quot;headerlink&quot; title=&quot;Windows Git初始化配置&quot;&gt;&lt;/a&gt;Windows
+          &lt;h1 id=&quot;Python小应用系列之制作个性微信好友墙&quot;&gt;&lt;a href=&quot;#Python小应用系列之制作个性微信好友墙&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
-      <category term="Git" scheme="https://HGzhao.github.io/categories/Git/"/>
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="Windows" scheme="https://HGzhao.github.io/tags/Windows/"/>
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
-      <category term="Git" scheme="https://HGzhao.github.io/tags/Git/"/>
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之用Python分析并预测双色球</title>
+    <link href="https://HGzhao.github.io/2019/07/08/pythonapps-ssq-predict/"/>
+    <id>https://HGzhao.github.io/2019/07/08/pythonapps-ssq-predict/</id>
+    <published>2019-07-08T14:00:03.000Z</published>
+    <updated>2019-10-07T10:26:11.681Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之用Python分析并预测双色球&quot;&gt;&lt;a href=&quot;#Python小应用系列之用Python分析并预测双色球&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之我在B站学会了垃圾分类</title>
+    <link href="https://HGzhao.github.io/2019/07/01/pythonapps-garbage-classification/"/>
+    <id>https://HGzhao.github.io/2019/07/01/pythonapps-garbage-classification/</id>
+    <published>2019-07-01T14:00:03.000Z</published>
+    <updated>2019-10-07T10:25:26.601Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之我在B站学会了垃圾分类&quot;&gt;&lt;a href=&quot;#Python小应用系列之我在B站学会了垃圾分类&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之用Python(蛇)玩Snake(贪吃蛇)</title>
+    <link href="https://HGzhao.github.io/2019/06/25/pythonapps-pygame-snake/"/>
+    <id>https://HGzhao.github.io/2019/06/25/pythonapps-pygame-snake/</id>
+    <published>2019-06-25T14:00:03.000Z</published>
+    <updated>2019-10-07T10:25:51.653Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之用Python-蛇-玩Snake-贪吃蛇&quot;&gt;&lt;a href=&quot;#Python小应用系列之用Python-蛇-玩Snake-贪吃蛇&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之利用Python制作像素图</title>
+    <link href="https://HGzhao.github.io/2019/06/19/pythonapps-convert-img-to-pixel/"/>
+    <id>https://HGzhao.github.io/2019/06/19/pythonapps-convert-img-to-pixel/</id>
+    <published>2019-06-19T14:00:03.000Z</published>
+    <updated>2019-10-07T10:25:36.638Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之利用Python制作像素图&quot;&gt;&lt;a href=&quot;#Python小应用系列之利用Python制作像素图&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之2019.618叠猫猫、Python帮你拿喵币</title>
+    <link href="https://HGzhao.github.io/2019/06/14/pythonapps-2019-618-pickmaomao/"/>
+    <id>https://HGzhao.github.io/2019/06/14/pythonapps-2019-618-pickmaomao/</id>
+    <published>2019-06-14T14:00:03.000Z</published>
+    <updated>2019-10-07T13:48:43.071Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之2019-618叠猫猫、Python帮你拿喵币&quot;&gt;&lt;a href=&quot;#Python小应用系列之2019-618叠猫猫、Python帮你拿喵币&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之借助Python抢微信红包</title>
+    <link href="https://HGzhao.github.io/2019/06/10/pythonapps-grab-luckymoney/"/>
+    <id>https://HGzhao.github.io/2019/06/10/pythonapps-grab-luckymoney/</id>
+    <published>2019-06-10T14:00:03.000Z</published>
+    <updated>2019-10-07T10:25:42.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之借助Python抢微信红包&quot;&gt;&lt;a href=&quot;#Python小应用系列之借助Python抢微信红包&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python小应用系列之Python助你秒杀淘宝大单</title>
+    <link href="https://HGzhao.github.io/2019/06/04/pythonapps-spike-taobao-orders/"/>
+    <id>https://HGzhao.github.io/2019/06/04/pythonapps-spike-taobao-orders/</id>
+    <published>2019-06-04T14:00:03.000Z</published>
+    <updated>2019-10-07T10:26:27.417Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python小应用系列之Python助你秒杀淘宝大单&quot;&gt;&lt;a href=&quot;#Python小应用系列之Python助你秒杀淘宝大单&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python面试题系列之05 遍历目录并筛选指定文件</title>
+    <link href="https://HGzhao.github.io/2019/04/28/interviewquestion-005-bian-li-mu-lu-bing-shai-xuan-zhi-ding-wen-jian/"/>
+    <id>https://HGzhao.github.io/2019/04/28/interviewquestion-005-bian-li-mu-lu-bing-shai-xuan-zhi-ding-wen-jian/</id>
+    <published>2019-04-28T14:00:03.000Z</published>
+    <updated>2019-10-07T14:07:32.043Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python面试题系列之05-设计实现遍历目录及子目录，并抓取-txt文件？&quot;&gt;&lt;a href=&quot;#Python面试题系列之05-设计实现遍历目录及子目录，并抓取-txt文件？&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之05:
+        
+      
+    
+    </summary>
+    
+      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python面试题系列之04 迭代器、生成器</title>
+    <link href="https://HGzhao.github.io/2019/04/25/interviewquestion-004-die-dai-qi-sheng-cheng-qi/"/>
+    <id>https://HGzhao.github.io/2019/04/25/interviewquestion-004-die-dai-qi-sheng-cheng-qi/</id>
+    <published>2019-04-25T14:00:03.000Z</published>
+    <updated>2019-10-07T14:01:30.212Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python面试题系列之04-什么是迭代器、生成器？&quot;&gt;&lt;a href=&quot;#Python面试题系列之04-什么是迭代器、生成器？&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之04:
+        
+      
+    
+    </summary>
+    
+      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python面试题系列之03 进程、线程、协程</title>
+    <link href="https://HGzhao.github.io/2019/04/24/interviewquestion-003-jin-cheng-xian-cheng-xie-cheng/"/>
+    <id>https://HGzhao.github.io/2019/04/24/interviewquestion-003-jin-cheng-xian-cheng-xie-cheng/</id>
+    <published>2019-04-24T14:00:03.000Z</published>
+    <updated>2019-10-07T13:56:17.378Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python面试题系列之03-谈谈你对进程，线程，协程的理解？&quot;&gt;&lt;a href=&quot;#Python面试题系列之03-谈谈你对进程，线程，协程的理解？&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之03:
+        
+      
+    
+    </summary>
+    
+      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python面试题系列之02 Python2 与 Python3 的区别</title>
+    <link href="https://HGzhao.github.io/2019/04/23/interviewquestion-002-python2-yu-python3-de-qu-bie/"/>
+    <id>https://HGzhao.github.io/2019/04/23/interviewquestion-002-python2-yu-python3-de-qu-bie/</id>
+    <published>2019-04-23T14:00:03.000Z</published>
+    <updated>2019-10-07T13:48:28.240Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python面试题系列之02-Python2-与-Python3-的区别&quot;&gt;&lt;a href=&quot;#Python面试题系列之02-Python2-与-Python3-的区别&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之02:
+        
+      
+    
+    </summary>
+    
+      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   

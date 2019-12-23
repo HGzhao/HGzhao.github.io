@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://HGzhao.github.io/"/>
-  <updated>2019-09-23T11:47:32.297Z</updated>
+  <updated>2019-12-19T12:22:51.108Z</updated>
   <id>https://HGzhao.github.io/</id>
   
   <author>
@@ -17,11 +17,559 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PythonPython使用小技巧之数据文件的读取</title>
+    <link href="https://HGzhao.github.io/2019/12/19/automation-unittest-framework/"/>
+    <id>https://HGzhao.github.io/2019/12/19/automation-unittest-framework/</id>
+    <published>2019-12-18T23:43:01.000Z</published>
+    <updated>2019-12-19T12:22:51.108Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python使用小技巧之数据文件的读取&quot;&gt;&lt;a href=&quot;#Python使用小技巧之数据文件的读取&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自动化测试之数据文件的读取</title>
+    <link href="https://HGzhao.github.io/2019/12/17/automation-read-and-write-files/"/>
+    <id>https://HGzhao.github.io/2019/12/17/automation-read-and-write-files/</id>
+    <published>2019-12-16T23:46:12.000Z</published>
+    <updated>2019-12-19T12:22:51.090Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;自动化测试之数据文件的读取&quot;&gt;&lt;a href=&quot;#自动化测试之数据文件的读取&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自动化测试之模块化参数化</title>
+    <link href="https://HGzhao.github.io/2019/12/16/automation-testing-mo-kuai-hua-ji-can-shu-hua/"/>
+    <id>https://HGzhao.github.io/2019/12/16/automation-testing-mo-kuai-hua-ji-can-shu-hua/</id>
+    <published>2019-12-15T23:42:19.000Z</published>
+    <updated>2019-12-19T12:22:51.103Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;自动化测试之模块化参数化&quot;&gt;&lt;a href=&quot;#自动化测试之模块化参数化&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自动化测试之自动化的测试模型</title>
+    <link href="https://HGzhao.github.io/2019/12/15/automation-testing-model/"/>
+    <id>https://HGzhao.github.io/2019/12/15/automation-testing-model/</id>
+    <published>2019-12-15T08:43:04.000Z</published>
+    <updated>2019-12-19T12:22:51.095Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;自动化测试之自动化的测试模型&quot;&gt;&lt;a href=&quot;#自动化测试之自动化的测试模型&quot; class=&quot;headerlink&quot; title=&quot;自动化测试之自动化的测试模型&quot;&gt;&lt;/a&gt;自动化测试之自动化的测试模型&lt;/h1&gt;&lt;h2 id=&quot;01-基础概念&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之滑动解锁操作的处理</title>
+    <link href="https://HGzhao.github.io/2019/12/13/python-selenium-webdriver-slide-to-unlock-operations/"/>
+    <id>https://HGzhao.github.io/2019/12/13/python-selenium-webdriver-slide-to-unlock-operations/</id>
+    <published>2019-12-12T23:39:04.000Z</published>
+    <updated>2019-12-13T12:27:14.702Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-小技巧之滑动解锁操作的处理&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之滑动解锁操作的处理&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之JavaScript及H5视频的处理</title>
+    <link href="https://HGzhao.github.io/2019/12/12/python-selenium-webdriver-javascript-and-h5-video-operations/"/>
+    <id>https://HGzhao.github.io/2019/12/12/python-selenium-webdriver-javascript-and-h5-video-operations/</id>
+    <published>2019-12-12T11:45:23.000Z</published>
+    <updated>2019-12-12T13:04:01.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;01-JavaScript的调用&quot;&gt;&lt;a href=&quot;#01-JavaScript的调用&quot; class=&quot;headerlink&quot; title=&quot;01 JavaScript的调用&quot;&gt;&lt;/a&gt;01
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之操作Cookies</title>
+    <link href="https://HGzhao.github.io/2019/12/12/python-selenium-webdriver-cookies-operations/"/>
+    <id>https://HGzhao.github.io/2019/12/12/python-selenium-webdriver-cookies-operations/</id>
+    <published>2019-12-12T00:59:01.000Z</published>
+    <updated>2019-12-12T02:47:09.302Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-小技巧之操作Cookies&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之操作Cookies&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之上传下载文件</title>
+    <link href="https://HGzhao.github.io/2019/12/11/python-selenium-webdriver-upload-download-files/"/>
+    <id>https://HGzhao.github.io/2019/12/11/python-selenium-webdriver-upload-download-files/</id>
+    <published>2019-12-11T00:05:12.000Z</published>
+    <updated>2019-12-12T00:26:33.306Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-小技巧之上传下载文件&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之上传下载文件&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之弹出框及下拉框的处理</title>
+    <link href="https://HGzhao.github.io/2019/12/10/python-selenium-webdriver-pop-up-and-select-box/"/>
+    <id>https://HGzhao.github.io/2019/12/10/python-selenium-webdriver-pop-up-and-select-box/</id>
+    <published>2019-12-09T23:36:58.000Z</published>
+    <updated>2019-12-12T13:04:00.509Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;01-弹出框的处理&quot;&gt;&lt;a href=&quot;#01-弹出框的处理&quot; class=&quot;headerlink&quot; title=&quot;01 弹出框的处理&quot;&gt;&lt;/a&gt;01
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之验证信息及多表单切换</title>
+    <link href="https://HGzhao.github.io/2019/12/09/python-selenium-webdriver-huo-qu-yan-zheng-xin-xi-ji-duo-biao-dan-qie-huan/"/>
+    <id>https://HGzhao.github.io/2019/12/09/python-selenium-webdriver-huo-qu-yan-zheng-xin-xi-ji-duo-biao-dan-qie-huan/</id>
+    <published>2019-12-08T23:59:03.000Z</published>
+    <updated>2019-12-12T13:04:07.848Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;01-验证信息的获取&quot;&gt;&lt;a href=&quot;#01-验证信息的获取&quot; class=&quot;headerlink&quot; title=&quot;01 验证信息的获取&quot;&gt;&lt;/a&gt;01
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium WebDriver API之键鼠操作</title>
+    <link href="https://HGzhao.github.io/2019/12/06/python-selenium-webdriver-mouse-keyboard-operations/"/>
+    <id>https://HGzhao.github.io/2019/12/06/python-selenium-webdriver-mouse-keyboard-operations/</id>
+    <published>2019-12-05T23:43:07.000Z</published>
+    <updated>2019-12-12T00:26:33.292Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-WebDriver-API之键鼠操作&quot;&gt;&lt;a href=&quot;#Python-Selenium-WebDriver-API之键鼠操作&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>接口测试学习笔记之02 REST &amp; RESTfull API</title>
+    <link href="https://HGzhao.github.io/2019/12/05/python-interface-testing-rest-restfullapi/"/>
+    <id>https://HGzhao.github.io/2019/12/05/python-interface-testing-rest-restfullapi/</id>
+    <published>2019-12-04T23:43:17.000Z</published>
+    <updated>2019-12-12T00:26:33.316Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;接口测试学习笔记之02-REST-amp-RESTfull-API&quot;&gt;&lt;a href=&quot;#接口测试学习笔记之02-REST-amp-RESTfull-API&quot; class=&quot;headerlink&quot; title=&quot;接口测试学习笔记之02 REST &amp;amp;
+        
+      
+    
+    </summary>
+    
+      <category term="HTTP接口测试" scheme="https://HGzhao.github.io/categories/HTTP%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="接口测试" scheme="https://HGzhao.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium WebDriver API之页面操作常用方法</title>
+    <link href="https://HGzhao.github.io/2019/12/04/python-selenium-webdriverapi-common-menthods/"/>
+    <id>https://HGzhao.github.io/2019/12/04/python-selenium-webdriverapi-common-menthods/</id>
+    <published>2019-12-04T00:03:00.000Z</published>
+    <updated>2019-12-19T12:22:51.123Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-WebDriver-API之页面操作常用方法&quot;&gt;&lt;a href=&quot;#Python-Selenium-WebDriver-API之页面操作常用方法&quot; class=&quot;headerlink&quot; title=&quot;Python +
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人在职场漂，如何不自保</title>
+    <link href="https://HGzhao.github.io/2019/12/03/insights-on-the-recent-layoffs/"/>
+    <id>https://HGzhao.github.io/2019/12/03/insights-on-the-recent-layoffs/</id>
+    <published>2019-12-03T11:02:51.000Z</published>
+    <updated>2019-12-19T12:22:51.114Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;人在职场漂，如何不自保&quot;&gt;&lt;a href=&quot;#人在职场漂，如何不自保&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="https://HGzhao.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="碎碎念" scheme="https://HGzhao.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium WebDriver API之浏览器相关操作</title>
+    <link href="https://HGzhao.github.io/2019/12/03/python-selenium-browsers-control/"/>
+    <id>https://HGzhao.github.io/2019/12/03/python-selenium-browsers-control/</id>
+    <published>2019-12-02T23:43:04.000Z</published>
+    <updated>2019-12-19T12:22:51.127Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-WebDriver-API之浏览器相关操作&quot;&gt;&lt;a href=&quot;#Python-Selenium-WebDriver-API之浏览器相关操作&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>接口测试学习笔记之01接口概念</title>
+    <link href="https://HGzhao.github.io/2019/11/30/python-interface-testing-some-concepts/"/>
+    <id>https://HGzhao.github.io/2019/11/30/python-interface-testing-some-concepts/</id>
+    <published>2019-11-30T06:00:05.000Z</published>
+    <updated>2019-12-12T00:26:33.320Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;接口测试学习笔记之01接口概念&quot;&gt;&lt;a href=&quot;#接口测试学习笔记之01接口概念&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="HTTP接口测试" scheme="https://HGzhao.github.io/categories/HTTP%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="接口测试" scheme="https://HGzhao.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python + Selenium 小技巧之元素定位</title>
+    <link href="https://HGzhao.github.io/2019/11/27/python-selenium-find-elements/"/>
+    <id>https://HGzhao.github.io/2019/11/27/python-selenium-find-elements/</id>
+    <published>2019-11-26T23:40:04.000Z</published>
+    <updated>2019-12-12T00:26:33.287Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-小技巧之元素定位&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之元素定位&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium 小技巧之元素定位&quot;&gt;&lt;/a&gt;Python +
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>休整一段时间</title>
+    <link href="https://HGzhao.github.io/2019/11/11/insights-have-a-rest/"/>
+    <id>https://HGzhao.github.io/2019/11/11/insights-have-a-rest/</id>
+    <published>2019-11-11T13:30:00.000Z</published>
+    <updated>2019-12-06T13:50:30.912Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近翻译了一本Python相关的书籍，&lt;/p&gt;
+&lt;p&gt;耗费将近小半年的时间，&lt;/p&gt;
+&lt;p&gt;终于结束了，&lt;/p&gt;
+&lt;p&gt;如释重负。&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="碎碎念" scheme="https://HGzhao.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+      <category term="碎碎念" scheme="https://HGzhao.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>持之以恒 VS 半途而废</title>
-    <link href="https://HGzhao.github.io/2019/09/21/quotations-persevere-vs-halfway-up/"/>
-    <id>https://HGzhao.github.io/2019/09/21/quotations-persevere-vs-halfway-up/</id>
+    <link href="https://HGzhao.github.io/2019/09/21/insights-persevere-vs-halfway-up/"/>
+    <id>https://HGzhao.github.io/2019/09/21/insights-persevere-vs-halfway-up/</id>
     <published>2019-09-21T03:13:31.000Z</published>
-    <updated>2019-09-23T11:47:32.297Z</updated>
+    <updated>2019-12-06T13:50:30.915Z</updated>
     
     <summary type="html">
     
@@ -47,7 +595,7 @@
     <link href="https://HGzhao.github.io/2019/09/18/markdown-syntax-learn-note/"/>
     <id>https://HGzhao.github.io/2019/09/18/markdown-syntax-learn-note/</id>
     <published>2019-09-18T12:51:43.000Z</published>
-    <updated>2019-09-28T06:19:38.021Z</updated>
+    <updated>2019-12-12T00:26:33.277Z</updated>
     
     <summary type="html">
     
@@ -61,523 +609,12 @@
     
     </summary>
     
-      <category term="Efficiency" scheme="https://HGzhao.github.io/categories/Efficiency/"/>
+      <category term="Uncategorized" scheme="https://HGzhao.github.io/categories/Uncategorized/"/>
     
     
       <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
     
       <category term="Markdown" scheme="https://HGzhao.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Visual Studio 最常用的快捷键</title>
-    <link href="https://HGzhao.github.io/2019/09/16/vs-keyboard-shortcuts/"/>
-    <id>https://HGzhao.github.io/2019/09/16/vs-keyboard-shortcuts/</id>
-    <published>2019-09-16T13:00:01.000Z</published>
-    <updated>2019-09-28T06:19:38.024Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Visual-Studio-最常用的快捷键&quot;&gt;&lt;a href=&quot;#Visual-Studio-最常用的快捷键&quot; class=&quot;headerlink&quot; title=&quot;Visual Studio 最常用的快捷键&quot;&gt;&lt;/a&gt;Visual Studio
-        
-      
-    
-    </summary>
-    
-      <category term="Efficiency" scheme="https://HGzhao.github.io/categories/Efficiency/"/>
-    
-    
-      <category term="Visual Studio" scheme="https://HGzhao.github.io/tags/Visual-Studio/"/>
-    
-      <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python + Selenium 小技巧之等待</title>
-    <link href="https://HGzhao.github.io/2019/09/14/python-selenium-waiting/"/>
-    <id>https://HGzhao.github.io/2019/09/14/python-selenium-waiting/</id>
-    <published>2019-09-14T06:15:15.000Z</published>
-    <updated>2019-09-21T01:51:37.622Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python-Selenium-小技巧之等待&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之等待&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium 小技巧之等待&quot;&gt;&lt;/a&gt;Python + Selenium
-        
-      
-    
-    </summary>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VS Code 快捷键最全攻略(附中文释义)</title>
-    <link href="https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/"/>
-    <id>https://HGzhao.github.io/2019/09/11/vscode-keyboard-shortcuts/</id>
-    <published>2019-09-11T12:12:12.000Z</published>
-    <updated>2019-09-23T11:47:32.300Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;VS-Code-快捷键最全攻略-附中文释义&quot;&gt;&lt;a href=&quot;#VS-Code-快捷键最全攻略-附中文释义&quot; class=&quot;headerlink&quot; title=&quot;VS Code 快捷键最全攻略(附中文释义)&quot;&gt;&lt;/a&gt;VS Code
-        
-      
-    
-    </summary>
-    
-      <category term="Efficiency" scheme="https://HGzhao.github.io/categories/Efficiency/"/>
-    
-    
-      <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
-    
-      <category term="Windows" scheme="https://HGzhao.github.io/tags/Windows/"/>
-    
-      <category term="VSCode" scheme="https://HGzhao.github.io/tags/VSCode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python + Selenium 小技巧之清空输入框文字</title>
-    <link href="https://HGzhao.github.io/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/"/>
-    <id>https://HGzhao.github.io/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/</id>
-    <published>2019-09-04T12:00:44.000Z</published>
-    <updated>2019-09-21T01:51:37.625Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python-Selenium-小技巧之清空输入框文字&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之清空输入框文字&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
-        
-      
-    
-    </summary>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python + Selenium 小技巧之切换浏览器窗口</title>
-    <link href="https://HGzhao.github.io/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/"/>
-    <id>https://HGzhao.github.io/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/</id>
-    <published>2019-08-29T11:19:00.000Z</published>
-    <updated>2019-09-28T06:19:38.022Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python-Selenium-小技巧之切换浏览器窗口&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之切换浏览器窗口&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
-        
-      
-    
-    </summary>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://HGzhao.github.io/2019/08/21/hello-world/"/>
-    <id>https://HGzhao.github.io/2019/08/21/hello-world/</id>
-    <published>2019-08-21T00:00:00.000Z</published>
-    <updated>2019-09-23T11:47:32.302Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;From WordPress to Hexo. Hello Hexo, Hello World!&lt;/p&gt;
-&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!
-        
-      
-    
-    </summary>
-    
-      <category term="Uncategorized" scheme="https://HGzhao.github.io/categories/Uncategorized/"/>
-    
-    
-      <category term="Hexo" scheme="https://HGzhao.github.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之制作个性微信好友墙</title>
-    <link href="https://HGzhao.github.io/2019/07/15/pythonapps-wechat-photo-wall/"/>
-    <id>https://HGzhao.github.io/2019/07/15/pythonapps-wechat-photo-wall/</id>
-    <published>2019-07-15T14:00:03.000Z</published>
-    <updated>2019-10-07T10:26:17.101Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之制作个性微信好友墙&quot;&gt;&lt;a href=&quot;#Python小应用系列之制作个性微信好友墙&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之用Python分析并预测双色球</title>
-    <link href="https://HGzhao.github.io/2019/07/08/pythonapps-ssq-predict/"/>
-    <id>https://HGzhao.github.io/2019/07/08/pythonapps-ssq-predict/</id>
-    <published>2019-07-08T14:00:03.000Z</published>
-    <updated>2019-10-07T10:26:11.681Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之用Python分析并预测双色球&quot;&gt;&lt;a href=&quot;#Python小应用系列之用Python分析并预测双色球&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之我在B站学会了垃圾分类</title>
-    <link href="https://HGzhao.github.io/2019/07/01/pythonapps-garbage-classification/"/>
-    <id>https://HGzhao.github.io/2019/07/01/pythonapps-garbage-classification/</id>
-    <published>2019-07-01T14:00:03.000Z</published>
-    <updated>2019-10-07T10:25:26.601Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之我在B站学会了垃圾分类&quot;&gt;&lt;a href=&quot;#Python小应用系列之我在B站学会了垃圾分类&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之用Python(蛇)玩Snake(贪吃蛇)</title>
-    <link href="https://HGzhao.github.io/2019/06/25/pythonapps-pygame-snake/"/>
-    <id>https://HGzhao.github.io/2019/06/25/pythonapps-pygame-snake/</id>
-    <published>2019-06-25T14:00:03.000Z</published>
-    <updated>2019-10-07T10:25:51.653Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之用Python-蛇-玩Snake-贪吃蛇&quot;&gt;&lt;a href=&quot;#Python小应用系列之用Python-蛇-玩Snake-贪吃蛇&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之利用Python制作像素图</title>
-    <link href="https://HGzhao.github.io/2019/06/19/pythonapps-convert-img-to-pixel/"/>
-    <id>https://HGzhao.github.io/2019/06/19/pythonapps-convert-img-to-pixel/</id>
-    <published>2019-06-19T14:00:03.000Z</published>
-    <updated>2019-10-07T10:25:36.638Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之利用Python制作像素图&quot;&gt;&lt;a href=&quot;#Python小应用系列之利用Python制作像素图&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之2019.618叠猫猫、Python帮你拿喵币</title>
-    <link href="https://HGzhao.github.io/2019/06/14/pythonapps-2019-618-pickmaomao/"/>
-    <id>https://HGzhao.github.io/2019/06/14/pythonapps-2019-618-pickmaomao/</id>
-    <published>2019-06-14T14:00:03.000Z</published>
-    <updated>2019-10-07T13:48:43.071Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之2019-618叠猫猫、Python帮你拿喵币&quot;&gt;&lt;a href=&quot;#Python小应用系列之2019-618叠猫猫、Python帮你拿喵币&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之借助Python抢微信红包</title>
-    <link href="https://HGzhao.github.io/2019/06/10/pythonapps-grab-luckymoney/"/>
-    <id>https://HGzhao.github.io/2019/06/10/pythonapps-grab-luckymoney/</id>
-    <published>2019-06-10T14:00:03.000Z</published>
-    <updated>2019-10-07T10:25:42.548Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之借助Python抢微信红包&quot;&gt;&lt;a href=&quot;#Python小应用系列之借助Python抢微信红包&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python小应用系列之Python助你秒杀淘宝大单</title>
-    <link href="https://HGzhao.github.io/2019/06/04/pythonapps-spike-taobao-orders/"/>
-    <id>https://HGzhao.github.io/2019/06/04/pythonapps-spike-taobao-orders/</id>
-    <published>2019-06-04T14:00:03.000Z</published>
-    <updated>2019-10-07T10:26:27.417Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python小应用系列之Python助你秒杀淘宝大单&quot;&gt;&lt;a href=&quot;#Python小应用系列之Python助你秒杀淘宝大单&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/categories/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python小应用系列" scheme="https://HGzhao.github.io/tags/Python%E5%B0%8F%E5%BA%94%E7%94%A8%E7%B3%BB%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python面试题系列之05 遍历目录并筛选指定文件</title>
-    <link href="https://HGzhao.github.io/2019/04/28/interviewquestion-005-bian-li-mu-lu-bing-shai-xuan-zhi-ding-wen-jian/"/>
-    <id>https://HGzhao.github.io/2019/04/28/interviewquestion-005-bian-li-mu-lu-bing-shai-xuan-zhi-ding-wen-jian/</id>
-    <published>2019-04-28T14:00:03.000Z</published>
-    <updated>2019-10-07T14:07:32.043Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python面试题系列之05-设计实现遍历目录及子目录，并抓取-txt文件？&quot;&gt;&lt;a href=&quot;#Python面试题系列之05-设计实现遍历目录及子目录，并抓取-txt文件？&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之05:
-        
-      
-    
-    </summary>
-    
-      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python面试题系列之04 迭代器、生成器</title>
-    <link href="https://HGzhao.github.io/2019/04/25/interviewquestion-004-die-dai-qi-sheng-cheng-qi/"/>
-    <id>https://HGzhao.github.io/2019/04/25/interviewquestion-004-die-dai-qi-sheng-cheng-qi/</id>
-    <published>2019-04-25T14:00:03.000Z</published>
-    <updated>2019-10-07T14:01:30.212Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python面试题系列之04-什么是迭代器、生成器？&quot;&gt;&lt;a href=&quot;#Python面试题系列之04-什么是迭代器、生成器？&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之04:
-        
-      
-    
-    </summary>
-    
-      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python面试题系列之03 进程、线程、协程</title>
-    <link href="https://HGzhao.github.io/2019/04/24/interviewquestion-003-jin-cheng-xian-cheng-xie-cheng/"/>
-    <id>https://HGzhao.github.io/2019/04/24/interviewquestion-003-jin-cheng-xian-cheng-xie-cheng/</id>
-    <published>2019-04-24T14:00:03.000Z</published>
-    <updated>2019-10-07T13:56:17.378Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python面试题系列之03-谈谈你对进程，线程，协程的理解？&quot;&gt;&lt;a href=&quot;#Python面试题系列之03-谈谈你对进程，线程，协程的理解？&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之03:
-        
-      
-    
-    </summary>
-    
-      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python面试题系列之02 Python2 与 Python3 的区别</title>
-    <link href="https://HGzhao.github.io/2019/04/23/interviewquestion-002-python2-yu-python3-de-qu-bie/"/>
-    <id>https://HGzhao.github.io/2019/04/23/interviewquestion-002-python2-yu-python3-de-qu-bie/</id>
-    <published>2019-04-23T14:00:03.000Z</published>
-    <updated>2019-10-07T13:48:28.240Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python面试题系列之02-Python2-与-Python3-的区别&quot;&gt;&lt;a href=&quot;#Python面试题系列之02-Python2-与-Python3-的区别&quot; class=&quot;headerlink&quot; title=&quot;Python面试题系列之02:
-        
-      
-    
-    </summary>
-    
-      <category term="Python面试题精析" scheme="https://HGzhao.github.io/categories/Python%E9%9D%A2%E8%AF%95%E9%A2%98%E7%B2%BE%E6%9E%90/"/>
-    
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Python面试题" scheme="https://HGzhao.github.io/tags/Python%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   

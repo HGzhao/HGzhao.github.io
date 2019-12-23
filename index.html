@@ -16,26 +16,23 @@
     <title>＆娴敲棋子＆&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
-    <style type="text/css">
-        
-    </style>
-
-    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+    
+    <script src="/libs/jquery/jquery.min.js"></script>
+    
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
-
-<header class="navbar-fixed">
+    <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
+        <div id="navContainer" class="nav-wrapper head-container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
@@ -46,68 +43,91 @@
             </div>
             
 
-<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
-<ul class="right">
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li class="hide-on-med-and-down">
-        <a href="/" class="waves-effect waves-light">
-            
-            <i class="fa fa-home"></i>
-            
-            <span>首页</span>
-        </a>
-    </li>
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
     
-    <li class="hide-on-med-and-down">
-        <a href="/tags" class="waves-effect waves-light">
-            
-            <i class="fa fa-tags"></i>
-            
-            <span>标签</span>
-        </a>
-    </li>
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li class="hide-on-med-and-down">
-        <a href="/categories" class="waves-effect waves-light">
-            
-            <i class="fa fa-bookmark"></i>
-            
-            <span>分类</span>
-        </a>
-    </li>
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
     
-    <li class="hide-on-med-and-down">
-        <a href="/archives" class="waves-effect waves-light">
-            
-            <i class="fa fa-archive"></i>
-            
-            <span>归档</span>
-        </a>
-    </li>
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li class="hide-on-med-and-down">
-        <a href="/about" class="waves-effect waves-light">
-            
-            <i class="fa fa-user-circle-o"></i>
-            
-            <span>关于</span>
-        </a>
-    </li>
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
     
-    <li class="hide-on-med-and-down">
-        <a href="/friends" class="waves-effect waves-light">
-            
-            <i class="fa fa-address-book"></i>
-            
-            <span>友情链接</span>
-        </a>
-    </li>
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
     
-    <li>
-        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
-        </a>
-    </li>
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
 </ul>
 
 <div id="mobile-nav" class="side-nav sidenav">
@@ -119,7 +139,7 @@
         <div class="logo-name">＆娴敲棋子＆'s Blog</div>
         <div class="logo-desc">
             
-            If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+            不艾，不怨，心坦然。生活，有苦乐；人生，有起落。挥袖从容，暖笑无殇。
             
         </div>
     </div>
@@ -128,65 +148,88 @@
 
     <ul class="menu-list mobile-menu-list">
         
-        <li>
-            <a href="/" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-home"></i>
-                
-                首页
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/tags" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-tags"></i>
-                
-                标签
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/categories" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-bookmark"></i>
-                
-                分类
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/archives" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-archive"></i>
-                
-                归档
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/about" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-user-circle-o"></i>
-                
-                关于
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
         </li>
         
-        <li>
-            <a href="/friends" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-address-book"></i>
-                
-                友情链接
-            </a>
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
         </li>
         
         
         <li><div class="divider"></div></li>
         <li>
             <a href="https://github.com/HGzhao/HGzhao.github.io" class="waves-effect waves-light" target="_blank">
-                <i class="fa fa-github-square fa-fw"></i>Fork Me
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
         
@@ -256,7 +299,7 @@
 
 </header>
 
-
+    
 <style>
     .carousel-control {
         width: 45px;
@@ -296,71 +339,107 @@
         color: #fff;
         font-size: 2.4rem;
     }
+    
+    html, body {
+        height:100%;
+    }
+
+    #page {
+        height:100%;
+        min-height: 100%;
+        width:100%;
+    }
 </style>
 
 
 
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
+<div id="page" class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
 
     <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
+        <div class="container" style="right: 0px;left: 0px;">
             <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
                 
-                    石沉溪洞，洞悉尘世
+                石沉溪洞，洞悉尘世
                 
             </div>
 
             <div class="description center-align">
                 
-                    If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['不艾，不怨，心坦然。生活，有苦乐；人生，有起落。挥袖从容，暖笑无殇。','Work hard, just meet a better self.'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
                 
             </div>
         </div>
     </div>
 </div>
+
+
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
 
-            <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
 
+            <div class="cover-btns">
                 
                 <a href="https://github.com/HGzhao/" class="waves-effect waves-light btn" target="_blank">
-                    <i class="fa fa-github-alt"></i>Github
+                    <i class="fab fa-github-alt"></i>Github
                 </a>
                 
             </div>
             <div class="cover-social-link">
     <a href="https://github.com/HGzhao/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fa fa-github"></i>
+        <i class="fab fa-github"></i>
     </a>
 
 
 
     <a href="mailto:Jeffrey.Zhao_CHN@outlook.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fa fa-envelope-open"></i>
+        <i class="fas fa-envelope-open"></i>
     </a>
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=251792033" class="tooltipped" data-tooltip="QQ联系我: 251792033" data-position="top" data-delay="50">
-        <i class="fa fa-qq"></i>
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=251792033" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 251792033" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
     </a>
+
+
+
+
 
 
 
     <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
+        <i class="fas fa-rss"></i>
     </a>
+
 </div>
+        </div>
+        <div class="container" style="bottom: 0; position: absolute; top: unset; height: 45px;">
+            <div class="cover-btns" style="top: unset;">
+                <a href="#indexCard" class="waves-effect waves-light btn scroll-down">
+                    <i class="fas fa-angle-double-down"></i>开始阅读
+                </a>
+            </div>
         </div>
     </div>
 
@@ -446,7 +525,7 @@ $(function () {
         volume: Number('0.4'),
         listFolded: 'false' === 'true',
         listMaxHeight: '',
-        audio: JSON.parse('[{"name":"The Day You Went Away","artist":"M2M","url":"https://mpdown.kekenet.com/Sound/song/fanchang/wentaway.mp3","cover":"http://xxx.com/music-cover1.png"},{"name":"Proud Of You","artist":"Fiona Fung","url":"https://mpdown.kekenet.com/Sound/song/fanchang/proudofyou.mp3","cover":"/medias/music/cover2.png"},{"name":"Mouse Loves Rice","artist":"Xiangxiang","url":"http://mp3.9ku.com/mp3/65/64251.mp3","cover":"http://xxx.com/music-cover3.png"}]')
+        audio: JSON.parse('[{"name":"The Day You Went Away","artist":"M2M","url":"https://mpdown.kekenet.com/Sound/song/fanchang/wentaway.mp3","cover":"https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20191013152549.png"},{"name":"Proud Of You","artist":"Fiona Fung","url":"https://mpdown.kekenet.com/Sound/song/fanchang/proudofyou.mp3","cover":"https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20191013152709.png"},{"name":"Mouse Loves Rice","artist":"Xiangxiang","url":"http://mp3.9ku.com/mp3/65/64251.mp3","cover":"https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20191013151348.jpg"}]')
     });
 });
 </script>
@@ -474,178 +553,31 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/09/21/quotations-persevere-vs-halfway-up/">
+                    <a href="/2019/12/19/automation-unittest-framework/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="持之以恒 VS 半途而废">
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="PythonPython使用小技巧之数据文件的读取">
                             
-                            <span class="card-title">持之以恒 VS 半途而废</span>
+                            <span class="card-title">PythonPython使用小技巧之数据文件的读取</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                想知道如何长久地坚持下去嘛🤩？想知道如何半途而废嘛😅？点进来瞧瞧吧😉！
+                                使用小技巧之数据文件的读取
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-19
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/碎碎念/" class="post-category" target="_blank">
-                                    碎碎念
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/碎碎念/" target="_blank">
-                            <span class="chip bg-color">碎碎念</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/09/18/markdown-syntax-learn-note/">
-                        <div class="card-image">
-                            
-                            <img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190922143727.png" class="responsive-img" alt="Markdown 语法学习笔记">
-                            
-                            <span class="card-title">Markdown 语法学习笔记</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                作为一种标记语言，Markdown具有轻量化易读易写等特性，是写文章的利器。
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Efficiency/" class="post-category" target="_blank">
-                                    Efficiency
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Efficiency/" target="_blank">
-                            <span class="chip bg-color">Efficiency</span>
-                        </a>
-                        
-                        <a href="/tags/Markdown/" target="_blank">
-                            <span class="chip bg-color">Markdown</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/09/16/vs-keyboard-shortcuts/">
-                        <div class="card-image">
-                            
-                            <img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190922112303.png" class="responsive-img" alt="Visual Studio 最常用的快捷键">
-                            
-                            <span class="card-title">Visual Studio 最常用的快捷键</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                本文列出了VS中常用的快捷键，正确熟练地使用快捷键，将极大提高你的编程工作效率。
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-16
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Efficiency/" class="post-category" target="_blank">
-                                    Efficiency
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Visual-Studio/" target="_blank">
-                            <span class="chip bg-color">Visual Studio</span>
-                        </a>
-                        
-                        <a href="/tags/Efficiency/" target="_blank">
-                            <span class="chip bg-color">Efficiency</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/09/14/python-selenium-waiting/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Python + Selenium 小技巧之等待">
-                            
-                            <span class="card-title">Python + Selenium 小技巧之等待</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                要知道，浏览器的渲染加载速度，远比不上你代码执行的速度
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-14
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/自动化测试/" class="post-category" target="_blank">
+                                <a href="/categories/自动化测试/" class="post-category">
                                     自动化测试
                                 </a>
                                 
@@ -657,70 +589,16 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
-                            <span class="chip bg-color">Python</span>
-                        </a>
-                        
-                        <a href="/tags/Selenium/" target="_blank">
-                            <span class="chip bg-color">Selenium</span>
-                        </a>
-                        
-                        <a href="/tags/自动化测试/" target="_blank">
+                        <a href="/tags/自动化测试/">
                             <span class="chip bg-color">自动化测试</span>
                         </a>
                         
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/09/11/vscode-keyboard-shortcuts/">
-                        <div class="card-image">
-                            
-                            <img src="https://raw.githubusercontent.com/HGzhao/CloudIMG/master/2019IMG/20190914135730.jpg" class="responsive-img" alt="VS Code 快捷键最全攻略(附中文释义)">
-                            
-                            <span class="card-title">VS Code 快捷键最全攻略(附中文释义)</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Windows系统，VSCode快捷键的最详细说明，另附有中文释义
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Efficiency/" class="post-category" target="_blank">
-                                    Efficiency
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Efficiency/" target="_blank">
-                            <span class="chip bg-color">Efficiency</span>
+                        <a href="/tags/Python/">
+                            <span class="chip bg-color">Python</span>
                         </a>
                         
-                        <a href="/tags/Windows/" target="_blank">
-                            <span class="chip bg-color">Windows</span>
-                        </a>
-                        
-                        <a href="/tags/VSCode/" target="_blank">
-                            <span class="chip bg-color">VSCode</span>
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
                         </a>
                         
                     </div>
@@ -730,31 +608,31 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/09/04/python-selenium-qing-kong-shu-ru-kuang-wen-zi/">
+                    <a href="/2019/12/17/automation-read-and-write-files/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Python + Selenium 小技巧之清空输入框文字">
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="自动化测试之数据文件的读取">
                             
-                            <span class="card-title">Python + Selenium 小技巧之清空输入框文字</span>
+                            <span class="card-title">自动化测试之数据文件的读取</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                对于输入框之类元素，在键入指定的内容之前，如何清空输入框中已存在的内容
+                                自动化测试之数据文件的读取
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-17
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/自动化测试/" class="post-category" target="_blank">
+                                <a href="/categories/自动化测试/" class="post-category">
                                     自动化测试
                                 </a>
                                 
@@ -766,16 +644,16 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
                             <span class="chip bg-color">Python</span>
                         </a>
                         
-                        <a href="/tags/Selenium/" target="_blank">
+                        <a href="/tags/Selenium/">
                             <span class="chip bg-color">Selenium</span>
-                        </a>
-                        
-                        <a href="/tags/自动化测试/" target="_blank">
-                            <span class="chip bg-color">自动化测试</span>
                         </a>
                         
                     </div>
@@ -785,31 +663,31 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/08/29/python-selenium-qie-huan-liu-lan-qi-chuang-kou/">
+                    <a href="/2019/12/16/automation-testing-mo-kuai-hua-ji-can-shu-hua/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Python + Selenium 小技巧之切换浏览器窗口">
+                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="自动化测试之模块化参数化">
                             
-                            <span class="card-title">Python + Selenium 小技巧之切换浏览器窗口</span>
+                            <span class="card-title">自动化测试之模块化参数化</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                在使用Selenium执行自动化测试过程中，若打开了多个浏览器窗口，如何自如地切换
+                                自动化测试之模块化参数化
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-16
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/自动化测试/" class="post-category" target="_blank">
+                                <a href="/categories/自动化测试/" class="post-category">
                                     自动化测试
                                 </a>
                                 
@@ -821,15 +699,7 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
-                            <span class="chip bg-color">Python</span>
-                        </a>
-                        
-                        <a href="/tags/Selenium/" target="_blank">
-                            <span class="chip bg-color">Selenium</span>
-                        </a>
-                        
-                        <a href="/tags/自动化测试/" target="_blank">
+                        <a href="/tags/自动化测试/">
                             <span class="chip bg-color">自动化测试</span>
                         </a>
                         
@@ -840,32 +710,32 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/08/21/hello-world/">
+                    <a href="/2019/12/15/automation-testing-model/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="自动化测试之自动化的测试模型">
                             
-                            <span class="card-title">Hello World</span>
+                            <span class="card-title">自动化测试之自动化的测试模型</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                From WordPress to Hexo. Hello Hexo, Hello World!
+                                自动化测试之模型
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-21
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-15
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Uncategorized/" class="post-category" target="_blank">
-                                    Uncategorized
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
                                 </a>
                                 
                                 
@@ -876,8 +746,8 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Hexo/" target="_blank">
-                            <span class="chip bg-color">Hexo</span>
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
                         </a>
                         
                     </div>
@@ -887,32 +757,32 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/07/15/pythonapps-wechat-photo-wall/">
+                    <a href="/2019/12/13/python-selenium-webdriver-slide-to-unlock-operations/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Python小应用系列之制作个性微信好友墙">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Python + Selenium 小技巧之滑动解锁操作的处理">
                             
-                            <span class="card-title">Python小应用系列之制作个性微信好友墙</span>
+                            <span class="card-title">Python + Selenium 小技巧之滑动解锁操作的处理</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                作为一种标记语言，Markdown具有轻量化易读易写等特性，是写文章的利器。
+                                滑动解锁操作的小技巧
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-13
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Python小应用系列/" class="post-category" target="_blank">
-                                    Python小应用系列
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
                                 </a>
                                 
                                 
@@ -923,12 +793,20 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
                             <span class="chip bg-color">Python</span>
                         </a>
                         
-                        <a href="/tags/Python小应用系列/" target="_blank">
-                            <span class="chip bg-color">Python小应用系列</span>
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
                         </a>
                         
                     </div>
@@ -938,32 +816,32 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/07/08/pythonapps-ssq-predict/">
+                    <a href="/2019/12/12/python-selenium-webdriver-javascript-and-h5-video-operations/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Python小应用系列之用Python分析并预测双色球">
+                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Python + Selenium 小技巧之JavaScript及H5视频的处理">
                             
-                            <span class="card-title">Python小应用系列之用Python分析并预测双色球</span>
+                            <span class="card-title">Python + Selenium 小技巧之JavaScript及H5视频的处理</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                作为一种标记语言，Markdown具有轻量化易读易写等特性，是写文章的利器。
+                                JavaScript的调用及H5视频的处理
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-12
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Python小应用系列/" class="post-category" target="_blank">
-                                    Python小应用系列
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
                                 </a>
                                 
                                 
@@ -974,12 +852,20 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
                             <span class="chip bg-color">Python</span>
                         </a>
                         
-                        <a href="/tags/Python小应用系列/" target="_blank">
-                            <span class="chip bg-color">Python小应用系列</span>
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
                         </a>
                         
                     </div>
@@ -989,32 +875,32 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/07/01/pythonapps-garbage-classification/">
+                    <a href="/2019/12/12/python-selenium-webdriver-cookies-operations/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Python小应用系列之我在B站学会了垃圾分类">
+                            <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Python + Selenium 小技巧之操作Cookies">
                             
-                            <span class="card-title">Python小应用系列之我在B站学会了垃圾分类</span>
+                            <span class="card-title">Python + Selenium 小技巧之操作Cookies</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                作为一种标记语言，Markdown具有轻量化易读易写等特性，是写文章的利器。
+                                操作Cookies
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-07-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-12
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Python小应用系列/" class="post-category" target="_blank">
-                                    Python小应用系列
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
                                 </a>
                                 
                                 
@@ -1025,12 +911,20 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
                             <span class="chip bg-color">Python</span>
                         </a>
                         
-                        <a href="/tags/Python小应用系列/" target="_blank">
-                            <span class="chip bg-color">Python小应用系列</span>
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
                         </a>
                         
                     </div>
@@ -1040,32 +934,32 @@ $(function () {
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2019/06/25/pythonapps-pygame-snake/">
+                    <a href="/2019/12/11/python-selenium-webdriver-upload-download-files/">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Python小应用系列之用Python(蛇)玩Snake(贪吃蛇)">
+                            <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Python + Selenium 小技巧之上传下载文件">
                             
-                            <span class="card-title">Python小应用系列之用Python(蛇)玩Snake(贪吃蛇)</span>
+                            <span class="card-title">Python + Selenium 小技巧之上传下载文件</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                作为一种标记语言，Markdown具有轻量化易读易写等特性，是写文章的利器。
+                                上传下载文件
                             
                         </div>
                         <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-06-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-11
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/Python小应用系列/" class="post-category" target="_blank">
-                                    Python小应用系列
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
                                 </a>
                                 
                                 
@@ -1076,12 +970,252 @@ $(function () {
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Python/" target="_blank">
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
                             <span class="chip bg-color">Python</span>
                         </a>
                         
-                        <a href="/tags/Python小应用系列/" target="_blank">
-                            <span class="chip bg-color">Python小应用系列</span>
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2019/12/10/python-selenium-webdriver-pop-up-and-select-box/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Python + Selenium 小技巧之弹出框及下拉框的处理">
+                            
+                            <span class="card-title">Python + Selenium 小技巧之弹出框及下拉框的处理</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                弹出框及下拉框的处理
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-10
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
+                            <span class="chip bg-color">Python</span>
+                        </a>
+                        
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2019/12/09/python-selenium-webdriver-huo-qu-yan-zheng-xin-xi-ji-duo-biao-dan-qie-huan/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Python + Selenium 小技巧之验证信息及多表单切换">
+                            
+                            <span class="card-title">Python + Selenium 小技巧之验证信息及多表单切换</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                验证信息的获取&多表单切换
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-09
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
+                            <span class="chip bg-color">Python</span>
+                        </a>
+                        
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2019/12/06/python-selenium-webdriver-mouse-keyboard-operations/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Python + Selenium WebDriver API之键鼠操作">
+                            
+                            <span class="card-title">Python + Selenium WebDriver API之键鼠操作</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                浏览器页面上的键鼠操作
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-06
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/自动化测试/" class="post-category">
+                                    自动化测试
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
+                            <span class="chip bg-color">Python</span>
+                        </a>
+                        
+                        <a href="/tags/Selenium/">
+                            <span class="chip bg-color">Selenium</span>
+                        </a>
+                        
+                        <a href="/tags/WebDriver-API/">
+                            <span class="chip bg-color">WebDriver API</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2019/12/05/python-interface-testing-rest-restfullapi/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="接口测试学习笔记之02 REST & RESTfull API">
+                            
+                            <span class="card-title">接口测试学习笔记之02 REST & RESTfull API</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                接口测试学习笔记第二篇
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-05
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/HTTP接口测试/" class="post-category">
+                                    HTTP接口测试
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/自动化测试/">
+                            <span class="chip bg-color">自动化测试</span>
+                        </a>
+                        
+                        <a href="/tags/Python/">
+                            <span class="chip bg-color">Python</span>
+                        </a>
+                        
+                        <a href="/tags/接口测试/">
+                            <span class="chip bg-color">接口测试</span>
                         </a>
                         
                     </div>
@@ -1100,18 +1234,18 @@ $(function () {
         <div class="col s6 m4 l4">
             
             <a class="left btn-floating btn-large disabled">
-                <i class="fa fa-angle-left"></i>
+                <i class="fas fa-angle-left"></i>
             </a>
             
         </div>
         <div class="page-info col m4 l4 hide-on-small-only">
-            <div class="center-align b-text-gray">1 / 3</div>
+            <div class="center-align b-text-gray">1 / 6</div>
         </div>
         <div class="col s6 m4 l4">
             
             <a href="/page/2/"
                class="right btn-floating btn-large waves-effect waves-light bg-color">
-                <i class="fa fa-angle-right"></i>
+                <i class="fas fa-angle-right"></i>
             </a>
             
         </div>
@@ -1120,17 +1254,39 @@ $(function () {
 
 
 
-<footer class="page-footer bg-color">
+
+    <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            Powered by<a href="https://hexo.io/" target="_blank"> Hexo </a>v3.8.0  |  
-
-            &copy;<a href="https://github.com/HGzhao/" target="_blank">＆娴敲棋子＆</a>.All Rights Reserved.
+            Copyright&nbsp;&copy;
+            <span id="year">年份</span>
+            <a href="https://HGzhao.github.io" target="_blank">＆娴敲棋子＆</a>
+            &nbsp;All Rights Reserved.&nbsp;
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo </a>v3.8.0  
+            <!-- |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
             <br>
-
-            <span id="sitetime"></span>
-            <script language=javascript>
-                function siteTime(){
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
                     window.setTimeout("siteTime()", 1000);
                     var seconds = 1000;
                     var minutes = seconds * 60;
@@ -1138,76 +1294,75 @@ $(function () {
                     var days = hours * 24;
                     var years = days * 365;
                     var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "08";
+                    var startDate = "21";
+                    var startHour = "7";
+                    var startMinute = "58";
+                    var startSecond = "0";
                     var todayYear = today.getFullYear();
-                    var todayMonth = today.getMonth()+1;
+                    var todayMonth = today.getMonth() + 1;
                     var todayDate = today.getDate();
                     var todayHour = today.getHours();
                     var todayMinute = today.getMinutes();
                     var todaySecond = today.getSeconds();
-                    /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
-                    year - 作为date对象的年份，为4位年份值
-                    month - 0-11之间的整数，做为date对象的月份
-                    day - 1-31之间的整数，做为date对象的天数
-                    hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
-                    minutes - 0-59之间的整数，做为date对象的分钟数
-                    seconds - 0-59之间的整数，做为date对象的秒数
-                    microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-                    var t1 = Date.UTC(2019,08,21,08,00,00); //北京时间2018-2-13 00:00:00
-                    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
-                    var diff = t2-t1;
-                    var diffYears = Math.floor(diff/years);
-                    var diffDays = Math.floor((diff/days)-diffYears*365);
-                    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
-                    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
-                    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-                    document.getElementById("sitetime").innerHTML="已运行"+/*diffYears+" 年 "*/+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
-                }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
-                siteTime();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
             </script>
-
             
-                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">39.8k</span>
-            
-            
-			
-                <br>
-                
-                <span id="busuanzi_container_site_pv">
-                    <i class="fa fa-heart-o"></i>
-                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
-                </span>
-                
-                
-                <span id="busuanzi_container_site_uv">
-                    <i class="fa fa-users"></i>
-                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
-                </span>
-                
+            <br>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
     <a href="https://github.com/HGzhao/" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fa fa-github"></i>
+        <i class="fab fa-github"></i>
     </a>
 
 
 
     <a href="mailto:Jeffrey.Zhao_CHN@outlook.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fa fa-envelope-open"></i>
+        <i class="fas fa-envelope-open"></i>
     </a>
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=251792033" class="tooltipped" data-tooltip="QQ联系我: 251792033" data-position="top" data-delay="50">
-        <i class="fa fa-qq"></i>
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=251792033" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 251792033" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
     </a>
+
+
+
+
 
 
 
     <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
+        <i class="fas fa-rss"></i>
     </a>
+
 </div>
     </div>
 </footer>
@@ -1215,11 +1370,11 @@ $(function () {
 <div class="progress-bar"></div>
 
 
-<!-- 搜索遮罩框 -->
+    <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
             <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
                    class="search-input">
         </div>
@@ -1233,30 +1388,65 @@ $(function () {
     searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
 });
 </script>
-<!-- 回到顶部按钮 -->
+    <!-- 回到顶部按钮 -->
 <div id="backTop" class="top-scroll">
     <a class="btn-floating btn-large waves-effect waves-light" href="#!">
-        <i class="fa fa-angle-up"></i>
+        <i class="fas fa-arrow-up"></i>
     </a>
 </div>
 
 
-<script src="/libs/materialize/materialize.min.js"></script>
-<script src="/libs/masonry/masonry.pkgd.min.js"></script>
-<script src="/libs/aos/aos.js"></script>
-<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-<script src="/js/matery.js"></script>
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
-
-
-    <script src="/libs/others/clicklove.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
 
+    
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"log":false});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+
 </html>

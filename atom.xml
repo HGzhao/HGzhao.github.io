@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://HGzhao.github.io/"/>
-  <updated>2019-12-19T12:22:51.108Z</updated>
+  <updated>2019-12-27T13:36:19.152Z</updated>
   <id>https://HGzhao.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python + Selenium Unittest学习小结</title>
+    <link href="https://HGzhao.github.io/2019/12/27/python-selenium-unittest/"/>
+    <id>https://HGzhao.github.io/2019/12/27/python-selenium-unittest/</id>
+    <published>2019-12-26T23:43:04.000Z</published>
+    <updated>2019-12-27T13:36:19.152Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python-Selenium-Unittest学习小结&quot;&gt;&lt;a href=&quot;#Python-Selenium-Unittest学习小结&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
+        
+      
+    
+    </summary>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="Unittest" scheme="https://HGzhao.github.io/tags/Unittest/"/>
+    
+  </entry>
   
   <entry>
     <title>PythonPython使用小技巧之数据文件的读取</title>
@@ -38,11 +70,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -68,11 +100,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -150,11 +182,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -182,11 +214,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -214,11 +246,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -246,11 +278,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -278,11 +310,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -310,11 +342,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -342,11 +374,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -374,9 +406,9 @@
       <category term="HTTP接口测试" scheme="https://HGzhao.github.io/categories/HTTP%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="接口测试" scheme="https://HGzhao.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
     
@@ -404,11 +436,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -462,11 +494,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -494,9 +526,9 @@
       <category term="HTTP接口测试" scheme="https://HGzhao.github.io/categories/HTTP%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="接口测试" scheme="https://HGzhao.github.io/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
     
@@ -524,11 +556,11 @@
       <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
     
       <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
+    
+      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
       <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
@@ -587,34 +619,6 @@
     
     
       <category term="碎碎念" scheme="https://HGzhao.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown 语法学习笔记</title>
-    <link href="https://HGzhao.github.io/2019/09/18/markdown-syntax-learn-note/"/>
-    <id>https://HGzhao.github.io/2019/09/18/markdown-syntax-learn-note/</id>
-    <published>2019-09-18T12:51:43.000Z</published>
-    <updated>2019-12-12T00:26:33.277Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Markdown-语法学习笔记&quot;&gt;&lt;a href=&quot;#Markdown-语法学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法学习笔记&quot;&gt;&lt;/a&gt;Markdown
-        
-      
-    
-    </summary>
-    
-      <category term="Uncategorized" scheme="https://HGzhao.github.io/categories/Uncategorized/"/>
-    
-    
-      <category term="Efficiency" scheme="https://HGzhao.github.io/tags/Efficiency/"/>
-    
-      <category term="Markdown" scheme="https://HGzhao.github.io/tags/Markdown/"/>
     
   </entry>
   

@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Python + Selenium Unittest学习小结</title>
+      <link href="/2019/12/27/python-selenium-unittest/"/>
+      <url>/2019/12/27/python-selenium-unittest/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Python-Selenium-Unittest学习小结"><a href="#Python-Selenium-Unittest学习小结" class="headerlink" title="Python + Selenium Unittest学习小结"></a>Python + Selenium Unittest学习小结</h1><p>相关链接：<a href="https://www.jianshu.com/p/38948d0d73f5" target="_blank" rel="noopener">https://www.jianshu.com/p/38948d0d73f5</a><br><a href="https://blog.csdn.net/huilan_same/article/details/52806985" target="_blank" rel="noopener">https://blog.csdn.net/huilan_same/article/details/52806985</a></p><p>一、什么是单元测试</p><p>单元测试是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作。</p><p>比如对于函数abs()，我们可以编写的测试用例为：</p><p>（1）输入正数，比如1、1.2、0.99，期待返回值与输入相同</p><p>（2）输入复数，比如-1、-1.2、-0.99，期待返回值与输入相反</p><p>（3）输入0，期待返回0</p><p>（4）输入非数值类型，比如None、[]、{}、期待抛出TypeError</p><p>把上面这些测试用例放到一个测试模块里，就是一个完整的单元测试</p><p>二、unittest工作原理</p><p>unittest中最核心的四部分是：TestCase，TestSuite，TestRunner，TestFixture</p><p>（1）一个TestCase的实例就是一个测试用例。测试用例就是指一个完整的测试流程，包括测试前准备环境的搭建（setUp），执行测试代码（run），以及测试后环境的还原（tearDown）。元测试（unit test）的本质也就在这里，一个测试用例是一个完整的测试单元，通过运行这个测试单元，可以对某一个问题进行验证。</p><p>（2）而多个测试用例集合在一起，就是TestSuite，而且TestSuite也可以嵌套TestSuite。</p><p>（3）TestLoader是用来加载TestCase到TestSuite中的。</p><p>（4）TextTestRunner是来执行测试用例的，其中的run(test)会执行TestSuite/TestCase中的run(result)方法</p><p>（5）测试的结果会保存到TextTestResult实例中，包括运行了多少测试用例，成功了多少，失败了多少等信息。</p><p>综上，整个流程就是首先要写好TestCase，然后由TestLoader加载TestCase到TestSuite，然后由TextTestRunner来运行TestSuite，运行的结果保存在TextTestResult中，整个过程集成在unittest.main模块中。</p><p>三、下面举两个实例，来看看unittest如何测试一个简单的函数</p><p>（1）编写一个Dict类，这个类的行为和dict一致，但是可以通过属性来访问例如</p><blockquote><blockquote><blockquote><p>d = Dict(a=1, b=2)<br>d[‘a’]<br>1<br>d.a<br>1</p></blockquote></blockquote></blockquote><p>mydict.py代码如下：</p><p>class Dict(dict):<br>    def <strong>init</strong>(self, <strong>kw):<br>        super(Dict, self).<strong>init</strong>(</strong>kw)</p><pre><code>def __getattr__(self, key):    try:        return self[key]    except KeyError:        raise AttributeError(r"'Dict' object has no attribute '%s'" % key)def __setattr__(self, key, value):    self[key] = value</code></pre><p>用于测试的文件mydict_test.py代码如下：</p><p>import unittest<br>from mydict import Dict</p><p>class TestDict(unittest.TestCase):<br>    def test_init(self):<br>        d = Dict(a=1, b=’test’)<br>        self.assertEqual(d.a, 1)  # 判断d.a是否等于1<br>        self.assertEqual(d.b, ‘test’)  # 判断d.b是否等于test<br>        self.assertTrue(isinstance(d, dict))  # 判断d是否是dict类型</p><pre><code>def test_key(self):    d = Dict()    d['key'] = 'value'    self.assertEqual(d.key, 'value')def test_attr(self):    d = Dict()    d.key = 'value'    self.assertTrue('key' in d)    self.assertEqual(d['key'], 'value')def test_keyerror(self):    d = Dict()    with self.assertRaises(KeyError):  # 通过d['empty']访问不存在的key时，断言会抛出keyerror        value = d['empty']def test_attrerror(self):    d = Dict()    with self.assertRaises(AttributeError):  # 通过d.empty访问不存在的key时，我们期待抛出AttributeError        value = d.empty</code></pre><p>if <strong>name</strong> == ‘<strong>main</strong>‘:<br>    unittest.main()</p><p>直接把mydict_test.py当普通的Python脚本运行即可</p><p>输出：</p><h2 id="…"><a href="#…" class="headerlink" title="….."></a>…..</h2><p>Ran 5 tests in 0.000s</p><p>OK</p><p>（2）测一个简单的加减乘除接口</p><p>mathfunc.py文件代码如下：</p><p>def add(a, b):<br>    return a + b</p><p>def minus(a, b):<br>    return a - b</p><p>def multi(a, b):<br>    return a * b</p><p>def divide(a, b):<br>    return a / b</p><p>test_mathfunc.py文件代码如下：</p><p>import unittest<br>from mathfunc import *</p><p>class TestMathFunc(unittest.TestCase):</p><pre><code>def test_add(self):    self.assertEqual(3, add(1, 2))    self.assertNotEqual(3, add(2, 2))def test_minus(self):    self.assertEqual(1, minus(3, 2))def test_multi(self):    self.assertEqual(6, multi(3, 2))def test_divide(self):    self.assertEqual(2, divide(6, 3))    self.assertEqual(2.5, divide(5, 2))</code></pre><p>if <strong>name</strong> == ‘<strong>main</strong>‘:<br>    unittest.main()</p><p>输出：</p><h1 id="F"><a href="#F" class="headerlink" title=".F.."></a>.F..</h1><h2 id="FAIL-test-divide-main-TestDict"><a href="#FAIL-test-divide-main-TestDict" class="headerlink" title="FAIL: test_divide (main.TestDict)"></a>FAIL: test_divide (<strong>main</strong>.TestDict)</h2><p>Traceback (most recent call last):<br>  File “D:/pythonWorkspace/test_mathfunc.py”, line 20, in test_divide<br>    self.assertEqual(2.5, divide(5, 2))<br>AssertionError: 2.5 != 2</p><hr><p>Ran 4 tests in 0.000s</p><p>FAILED (failures=1)</p><p>可以看到一共运行了4个测试，失败了1个，并且给出了失败原因，2.5!=2，也就是说我们的divide方法是有问题的。</p><p>关于输出的几点说明：</p><p>1、在第一行给出了每一个用例执行的结果的标识，成功是.，失败是F，出错是E，跳过是S。从上面可以看出，测试的执行跟方法的顺序没有关系，divide方法写在了第4个，但是却在第2个执行。</p><p>2、每个测试方法均以test开头，否则不能被unittest识别</p><p>3、在uniitest.main()中加verbosity参数可以控制输出的错误报告的详细程度，默认是1，如果设为0， 则不输出每一用例的执行结果，即没有上面的结果中的第1行，如果设为2，则输出详细的执行结果，如下所示：</p><p>test_add (<strong>main</strong>.TestMathFunc) … ok<br>test_divide (<strong>main</strong>.TestMathFunc) … FAIL<br>test_minus (<strong>main</strong>.TestMathFunc) … ok<br>test_multi (<strong>main</strong>.TestMathFunc) … ok</p><p>======================================================================</p><h2 id="FAIL-test-divide-main-TestMathFunc"><a href="#FAIL-test-divide-main-TestMathFunc" class="headerlink" title="FAIL: test_divide (main.TestMathFunc)"></a>FAIL: test_divide (<strong>main</strong>.TestMathFunc)</h2><p>Traceback (most recent call last):<br>  File “D:/pythonWorkspace/test_mathfunc.py”, line 20, in test_divide<br>    self.assertEqual(2.5, divide(5, 2))<br>AssertionError: 2.5 != 2</p><hr><p>Ran 4 tests in 0.000s</p><p>FAILED (failures=1)</p><p>四、组织TestSuite</p><p>上面的测试用例在执行的时候没有按照顺序执行，如果想要让用例按照你设置的顺序执行就用到了TestSuite。我们添加到TestSuite中的case是会按照添加的顺序执行的。</p><p>现在我们只有一个测试文件，如果有多个测试文件，也可以用TestSuite组织起来。</p><p>继续上面第二加减乘除的例子，现在再新建一个文件，test_suite.py，代码如下：</p><h1 id="coding-utf-8"><a href="#coding-utf-8" class="headerlink" title="coding=utf-8"></a>coding=utf-8</h1><p>import unittest<br>from test_mathfunc import TestMathFunc</p><p>if <strong>name</strong> == ‘<strong>main</strong>‘:<br>    suite = unittest.TestSuite()</p><pre><code>tests = [TestMathFunc("test_add"), TestMathFunc("test_minus"), TestMathFunc("test_divide")]suite.addTests(tests)runner = unittest.TextTestRunner(verbosity=2)runner.run(suite)</code></pre><p>执行结果如下：</p><p>test_add (test_mathfunc.TestMathFunc) … ok<br>test_minus (test_mathfunc.TestMathFunc) … ok<br>test_divide (test_mathfunc.TestMathFunc) … FAIL</p><p>======================================================================</p><h2 id="FAIL-test-divide-test-mathfunc-TestMathFunc"><a href="#FAIL-test-divide-test-mathfunc-TestMathFunc" class="headerlink" title="FAIL: test_divide (test_mathfunc.TestMathFunc)"></a>FAIL: test_divide (test_mathfunc.TestMathFunc)</h2><p>Traceback (most recent call last):<br>  File “D:\pythonWorkspace\HTMLTest\test_mathfunc.py”, line 20, in test_divide<br>    self.assertEqual(2.5, divide(5, 2))<br>AssertionError: 2.5 != 2</p><hr><p>Ran 3 tests in 0.000s</p><p>FAILED (failures=1)</p><p>五、将结果输出到文件</p><p>现在我们的测试结果只能输出到控制台，现在我们想将结果输出到文件中以便后续可以查看。</p><p>将test_suite.py进行一点修改，代码如下：</p><h1 id="coding-utf-8-1"><a href="#coding-utf-8-1" class="headerlink" title="coding=utf-8"></a>coding=utf-8</h1><p>import unittest<br>from test_mathfunc import TestMathFunc</p><p>if <strong>name</strong> == ‘<strong>main</strong>‘:<br>    suite = unittest.TestSuite()</p><pre><code>tests = [TestMathFunc("test_add"), TestMathFunc("test_minus"), TestMathFunc("test_divide")]suite.addTests(tests)with open('UnittestTextReport.txt', 'a') as  f:    runner = unittest.TextTestRunner(stream=f, verbosity=2)    runner.run(suite)</code></pre><p>运行该文件，就会发现目录下生成了’UnittestTextReport.txt，所有的执行报告均输出到了此文件中。</p><p>六、test fixture的setUp和tearDown</p><p>当遇到要启动一个数据库这种情况时，只想在开始时连接上数据库，在结束时关闭连接。那么可以使用setUp和tearDown函数。</p><p>class TestDict(unittest.TestCase):</p><pre><code>def setUp(self):    print 'setUp...'def tearDown(self):    print 'tearDown...'</code></pre><p>这两个方法在每个测试方法执行前以及执行后执行一次，setUp用来为测试准备环境，tearDown用来清理环境，以备后续的测试。</p><p>如果想要在所有case执行之前准备一次环境，并在所有case执行结束之后再清理环境，我们可以用setUpClass()与tearDownClass()，代码格式如下：</p><p>class TestMathFunc(unittest.TestCase):<br>    @classmethod<br>    def setUpClass(cls):<br>        print “setUp”</p><pre><code>@classmethoddef tearDownClass(cls):    print "tearDown"</code></pre><p>七、跳过某个case</p><p>unittest提供了几种方法可以跳过case</p><p>（1）skip装饰器</p><p>代码如下</p><h1 id="coding-utf-8-2"><a href="#coding-utf-8-2" class="headerlink" title="coding=utf-8"></a>coding=utf-8</h1><p>import unittest<br>from mathfunc import *</p><p>class TestMathFunc(unittest.TestCase):</p><pre><code> .....@unittest.skip("i don't want to run this case.")def test_minus(self):    self.assertEqual(1, minus(3, 2))</code></pre><p>输出：</p><p>test_add (test_mathfunc.TestMathFunc) … ok<br>test_minus (test_mathfunc.TestMathFunc) … skipped “i don’t want to run this case.”<br>test_divide (test_mathfunc.TestMathFunc) … FAIL</p><p>======================================================================</p><h2 id="FAIL-test-divide-test-mathfunc-TestMathFunc-1"><a href="#FAIL-test-divide-test-mathfunc-TestMathFunc-1" class="headerlink" title="FAIL: test_divide (test_mathfunc.TestMathFunc)"></a>FAIL: test_divide (test_mathfunc.TestMathFunc)</h2><p>Traceback (most recent call last):<br>  File “D:\pythonWorkspace\HTMLTest\test_mathfunc.py”, line 28, in test_divide<br>    self.assertEqual(2.5, divide(5, 2))<br>AssertionError: 2.5 != 2</p><hr><p>Ran 3 tests in 0.000s</p><p>FAILED (failures=1, skipped=1)</p><p>skip装饰器一共有三个</p><p>unittest,skip(reason)：无条件跳过</p><p>unittest.skipIf(condition, reason)：当condition为True时跳过</p><p>unittest.skipUnless(condition, reason)：当condition为False时跳过</p><p>（2）TestCase.skipTest()方法</p><p>class TestMathFunc(unittest.TestCase):<br>…<br>def test_minus(self):<br>        self.skipTest(‘do not run this.’)<br>        self.assertEqual(1, minus(3, 2))</p><p>输出：</p><p>test_add (test_mathfunc.TestMathFunc) … ok<br>test_minus (test_mathfunc.TestMathFunc) … skipped ‘do not run this.’<br>test_divide (test_mathfunc.TestMathFunc) … FAIL</p><p>======================================================================</p><h2 id="FAIL-test-divide-test-mathfunc-TestMathFunc-2"><a href="#FAIL-test-divide-test-mathfunc-TestMathFunc-2" class="headerlink" title="FAIL: test_divide (test_mathfunc.TestMathFunc)"></a>FAIL: test_divide (test_mathfunc.TestMathFunc)</h2><p>Traceback (most recent call last):<br>  File “D:\pythonWorkspace\HTMLTest\test_mathfunc.py”, line 20, in test_divide<br>    self.assertEqual(2.5, divide(5, 2))<br>AssertionError: 2.5 != 2</p><hr><p>Ran 3 tests in 0.000s</p><p>FAILED (failures=1, skipped=1)</p><p>八、用HTMLTestRunner输出漂亮的HTML报告</p><p>txt格式的文本执行报告过于简陋，这里我们学习一下借助HTMLTestRunner生成HTML报告。首先需要下载HTMLTestRunner.py，并放到当前目录下，或者python目录下的Lib中，就可以导入运行了。</p><p>下载地址：<a href="http://tungwaiyip.info/software/HTMLTestRunner.html" target="_blank" rel="noopener">http://tungwaiyip.info/software/HTMLTestRunner.html</a></p><p>将test_suite.py代码修改如下：</p><h1 id="coding-utf-8-3"><a href="#coding-utf-8-3" class="headerlink" title="coding=utf-8"></a>coding=utf-8</h1><p>import unittest<br>from test_mathfunc import TestMathFunc<br>from HTMLTestRunner import HTMLTestRunner</p><p>if <strong>name</strong> == ‘<strong>main</strong>‘:<br>    suite = unittest.TestSuite()</p><pre><code>tests = [TestMathFunc("test_add"), TestMathFunc("test_minus"), TestMathFunc("test_divide")]suite.addTests(tests)with open('HTMLReport.html', 'w') as f:    runner = HTMLTestRunner(stream=f,                            title = 'MathFunc Test Report',                            description='generated by HTMLTestRunner.',                            verbosity=2                            )    runner.run(suite)</code></pre><p>执行后，控制台输出如下：</p><p>ok test_add (test_mathfunc.TestMathFunc)<br>F  test_divide (test_mathfunc.TestMathFunc)</p><p>Time Elapsed: 0:00:00.001000</p><p>生成的html：</p><p>九、总结</p><p>1、unittest是python自带的单元测试框架，我们可以用其来作为我们自动化测试框架的用例组织执行框架。</p><p>2、unittest的流程：写好TestCase，然后由TestLoader加载TestCase到TestSuite，然后由TextTestRunner来运行TestSuite，运行的结果保存在TextTestResult中，我们通过命令行或者unittest.main()执行时，main会调用TextTestRunner中的run来执行，或者我们可以直接通过TextTestRunner来执行用例。</p><p>3、一个class继承unittest.TestCase即是一个TestCase，其中以 test 开头的方法在load时被加载为一个真正的TestCase。</p><p>4、verbosity参数可以控制执行结果的输出，0 是简单报告、1 是一般报告、2 是详细报告。</p><p>5、可以通过addTest和addTests向suite中添加case或suite，可以用TestLoader的loadTestsFrom__()方法。</p><p>6、用 setUp()、tearDown()、setUpClass()以及 tearDownClass()可以在用例执行前布置环境，以及在用例执行后清理环境</p><p>7、我们可以通过skip，skipIf，skipUnless装饰器跳过某个case，或者用TestCase.skipTest方法。</p><p>8、参数中加stream，可以将报告输出到文件：可以用TextTestRunner输出txt报告，以及可以用HTMLTestRunner输出html报告。</p><p>————————————————<br>版权声明：本文为CSDN博主「小拳头」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/xiaoquantouer/article/details/75089200" target="_blank" rel="noopener">https://blog.csdn.net/xiaoquantouer/article/details/75089200</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自动化测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
+            
+            <tag> Unittest </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PythonPython使用小技巧之数据文件的读取</title>
       <link href="/2019/12/19/automation-unittest-framework/"/>
       <url>/2019/12/19/automation-unittest-framework/</url>
@@ -20,11 +51,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
         </tags>
       
@@ -49,11 +80,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
         </tags>
       
@@ -128,11 +159,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -159,11 +190,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -190,11 +221,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -221,11 +252,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -252,11 +283,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -283,11 +314,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -314,11 +345,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -345,9 +376,9 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> 接口测试 </tag>
             
@@ -374,11 +405,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -430,11 +461,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -461,9 +492,9 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> 接口测试 </tag>
             
@@ -490,11 +521,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
             <tag> WebDriver API </tag>
             
@@ -625,11 +656,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
         </tags>
       
@@ -683,11 +714,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
         </tags>
       
@@ -712,11 +743,11 @@
       
         <tags>
             
-            <tag> 自动化测试 </tag>
-            
             <tag> Python </tag>
             
             <tag> Selenium </tag>
+            
+            <tag> 自动化测试 </tag>
             
         </tags>
       

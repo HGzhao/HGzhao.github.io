@@ -9,7 +9,7 @@
 
 
 [![QQ](https://img.shields.io/badge/QQ-251792033-blue.svg?style=flat-square)](http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes)
-[![Email](https://img.shields.io/badge/Emali%20me-Jeffrey.Zhao_CHN@outlook.com-green.svg?style=flat-square)]()
+[![Email](https://img.shields.io/badge/Email%20me-Jeffrey.Zhao_CHN@outlook.com-green.svg?style=flat-square)]()
 
 
 

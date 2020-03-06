@@ -5,8 +5,8 @@
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="自动化测试之数据文件的读取, ＆娴敲棋子＆&#39;s Blog">
-    <meta name="description" content="自动化测试之数据文件的读取虽然前面的文章中提到了参数化，但大多数测试更倾向于把测试数据放到数据文件中。所以这里介绍下常见的读取数据文件的方法。
-这里继续之前用户登录的例子，将用户信息拆分到单独的数据文件中，在需要时进行读取，来进一步的参数化">
+    <meta name="description" content="自动化测试之数据文件的读取虽然此前文章中提到了参数化，但大多数测试更倾向于把测试数据放到数据文件中。所以这里介绍下常见的读取数据文件的方法。
+这里继续之前用户登录的例子，将用户信息拆分到单独的数据文件中，在需要时进行读取，来进一步的参数化。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -301,6 +301,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -487,7 +500,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="自动化测试之数据文件的读取"><a href="#自动化测试之数据文件的读取" class="headerlink" title="自动化测试之数据文件的读取"></a>自动化测试之数据文件的读取</h1><p>虽然前面的文章中提到了参数化，但大多数测试更倾向于把测试数据放到数据文件中。所以这里介绍下常见的读取数据文件的方法。</p>
+                <h1 id="自动化测试之数据文件的读取"><a href="#自动化测试之数据文件的读取" class="headerlink" title="自动化测试之数据文件的读取"></a>自动化测试之数据文件的读取</h1><p>虽然此前文章中提到了参数化，但大多数测试更倾向于把测试数据放到数据文件中。所以这里介绍下常见的读取数据文件的方法。</p>
 <p>这里继续之前用户登录的例子，将用户信息拆分到单独的数据文件中，在需要时进行读取，来进一步的参数化。</p>
 <h2 id="01-TXT文件的读取"><a href="#01-TXT文件的读取" class="headerlink" title="01 TXT文件的读取"></a>01 TXT文件的读取</h2><p>txt文件是我们经常操作的文件类型，Python为我们提供了以下几种读取方法：</p>
 <ul>
@@ -1164,7 +1177,7 @@ user_list <span class="token operator">=</span> json<span class="token punctuati
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/27/python-selenium-unittest-framework/">
+                <a href="/2019/12/27/python-selenium-unittest-framework-1/">
                     <div class="card-image">
                         
                         

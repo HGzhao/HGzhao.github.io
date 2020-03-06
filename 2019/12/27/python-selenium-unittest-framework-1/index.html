@@ -5,7 +5,8 @@
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
     <meta name="keywords" content="Python + Selenium 单元测试与Unittest框架, ＆娴敲棋子＆&#39;s Blog">
-    <meta name="description" content="Python + Selenium 单元测试与Unittest框架相关链接：https://www.jianshu.com/p/38948d0d73f5https://blog.csdn.net/huilan_same/article/de">
+    <meta name="description" content="Python + Selenium 单元测试与Unittest框架01 什么是单元测试单元测试，简单来说是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作。
+以一个求绝对值的函数abs()为例，我们可以会对以下几种场景进行测试：">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -300,6 +301,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '560c0fc5a7d8561c72ce1ca91d7621313a03d577b757882610847a3b824aadd5';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -467,14 +481,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.5k
+                    4.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    16 分
                 </div>
                 
 				
@@ -490,8 +504,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Python-Selenium-单元测试与Unittest框架"><a href="#Python-Selenium-单元测试与Unittest框架" class="headerlink" title="Python + Selenium 单元测试与Unittest框架"></a>Python + Selenium 单元测试与Unittest框架</h1><p>相关链接：<br><a href="https://www.jianshu.com/p/38948d0d73f5" target="_blank" rel="noopener">https://www.jianshu.com/p/38948d0d73f5</a><br><a href="https://blog.csdn.net/huilan_same/article/details/52806985" target="_blank" rel="noopener">https://blog.csdn.net/huilan_same/article/details/52806985</a><br><a href="https://blog.csdn.net/xiaoquantouer/article/details/75089200" target="_blank" rel="noopener">https://blog.csdn.net/xiaoquantouer/article/details/75089200</a></p>
-<h2 id="01-什么是单元测试"><a href="#01-什么是单元测试" class="headerlink" title="01 什么是单元测试"></a>01 什么是单元测试</h2><p>单元测试，简单来说是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作。</p>
+                <h1 id="Python-Selenium-单元测试与Unittest框架"><a href="#Python-Selenium-单元测试与Unittest框架" class="headerlink" title="Python + Selenium 单元测试与Unittest框架"></a>Python + Selenium 单元测试与Unittest框架</h1><h2 id="01-什么是单元测试"><a href="#01-什么是单元测试" class="headerlink" title="01 什么是单元测试"></a>01 什么是单元测试</h2><p>单元测试，简单来说是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作。</p>
 <p>以一个求绝对值的函数<code>abs()</code>为例，我们可以会对以下几种场景进行测试：</p>
 <ul>
 <li>输入：正值，如1、1.2、0.99；预期：返回值与输入相同</li>
@@ -500,7 +513,20 @@
 <li>输入：非数值类型，如None、[]、{}；预期：抛出TypeError</li>
 </ul>
 <p>把上述这些场景转化为测试用例，放到一个测试模块里，就是一个完整的单元测试。</p>
-<h2 id="02-Python与单元测试"><a href="#02-Python与单元测试" class="headerlink" title="02 Python与单元测试"></a>02 Python与单元测试</h2><h2 id="03-unittest框架介绍"><a href="#03-unittest框架介绍" class="headerlink" title="03 unittest框架介绍"></a>03 unittest框架介绍</h2><p>在unittest框架中最核心的四部分是：<strong>TestCase</strong>，<strong>TestSuite</strong>，<strong>TestRunner</strong>，<strong>TestFixture</strong></p>
+<p>单元测试，本质上就是通过一段代码去验证另一段代码，所以不用单元测试框架也可以写单元测试。</p>
+<p>设想一下，这里有一个待测试脚本calc.py。</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">add</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> a<span class="token operator">+</span>b
+
+<span class="token keyword">def</span> <span class="token function">minus</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> a<span class="token operator">-</span>b
+
+<span class="token keyword">def</span> <span class="token function">multi</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> a<span class="token operator">*</span>b
+
+<span class="token keyword">def</span> <span class="token function">divide</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> a<span class="token operator">/</span>b</code></pre>
+<h2 id="02-为什么要引入单元测试框架"><a href="#02-为什么要引入单元测试框架" class="headerlink" title="02 为什么要引入单元测试框架"></a>02 为什么要引入单元测试框架</h2><h2 id="03-unittest框架介绍及核心工作原理"><a href="#03-unittest框架介绍及核心工作原理" class="headerlink" title="03 unittest框架介绍及核心工作原理"></a>03 unittest框架介绍及核心工作原理</h2><p>在unittest框架中最核心的四部分是：<strong>TestCase</strong>，<strong>TestSuite</strong>，<strong>TestRunner</strong>，<strong>TestFixture</strong></p>
 <ol>
 <li><p>一个TestCase的实例就是一个测试用例。<br>测试用例就是指一个完整的测试流程，包括测试前准备环境的搭建（setUp），执行测试代码（run），以及测试后环境的复原（tearDown）。元测试（unit test）的本质也就在这里，一个测试用例是一个完整的测试单元，通过运行这个测试单元，可以对某一个问题进行验证。</p>
 </li>
@@ -771,6 +797,17 @@ with open('HTMLReport.html', 'w') as f:
 <p>6、用 setUp()、tearDown()、setUpClass()以及 tearDownClass()可以在用例执行前布置环境，以及在用例执行后清理环境</p>
 <p>7、我们可以通过skip，skipIf，skipUnless装饰器跳过某个case，或者用TestCase.skipTest方法。</p>
 <p>8、参数中加stream，可以将报告输出到文件：可以用TextTestRunner输出txt报告，以及可以用HTMLTestRunner输出html报告。</p>
+<p>===================</p>
+<p>1引入units的模块之后，首先应该创建一个测试类这里，我们的例子是test corely他必须要继承英特尔的特斯拉特斯拉。<br>2创建一个测试方法，方法必须以test开头。<br>首先调用被测试类传入初始化数据，<br>第2步调用被测试方法得到计算结果，通过unit test提供的22的依靠方法来判断断言是否与预期的相同，该方法由太子kiss父类提供，由于继承了该类可以通过self调用。<br>最后调用units的命函数来执行测试用例，他会按照前面的两条规则查找检查测试用例并执行。</p>
+<p>测试结果，用点.表示一条运行执行通过的测试用例，用F表示一条运行失败的测试用例E来表示一条运行错误的测试用例，用小写s表示一条跳过的测试用例。</p>
+<p>因为你太子中有4个重要的概念，太太太，太太太的太太，太太太太幼稚，太太太，太太太的太太太太太太。<br> Test case.<br>是最小的测试单元，用于检查客厅的输入集合的特定方式，他提供了test case积累，我们创建的测试类都需要继承该机类，他可以创建新的测试用例。<br>Test sunits.<br>测试套件时测试用力，测试套件和或两者的结合，用于组装一组必要的测试text units的提供了台式用的类来创建测试套件。<br>Test runner.<br>他所说的那是一个组件用于协调测试的执行，并向用户提供结果，泰坦尼克罗纳尔可以使用图形界面文本界面或返回特定值来展示测试的结果。<br>因为你太舍得提供了，太可惜了，后面会选择tml test runner测试运行类。<br>Test fixture.<br>特斯拉visitor代表执行一个或多个测试用例所需的环境准备以及关联的清理动作，例如创建临时或代理数据库目录或启动服务进程，test unit中提供了set up sap sit down class等方法来完成搜索。</p>
+<p>在这个例子中首先创建一个测试类并集成台词的case，内在该类下创建一条，以test开头的方法作为测试页面。这里需要强调的是，测试用例必须以test开头。<br>其次在测试类中增加了set up方法和材料方法，用于自定义测试用例的前置和后置动作，因为在当前测试中暂时用不上。在当前例子中用不上，这里只定义了一些简单的答案，接下来再测试用例的执行中，做了很大变动，首先抛弃了units提供的main方法，而是调用text unit类下面的爱的test来添加测试用例。<br>因为一次只能添加一条测试用例，所以需要指定测试内容和测试方法，然后调用test test testing，运行测试套件。<br>这样做确实比直接使用mean方法要麻烦的很多，但也并没有并不是没有优点，首先测试用例的执行顺序可以由测试套件的添加顺序控制。而main方法只能按照测试类方法的名称来执行测试用例。<br>比如test a类比test b类先执行test a的用例，比特斯拉的对应的一些执行。<br>其次，当一个测试文件中有许多测试用例，是并不是每次都要执行所有的测试用例，尤其是比较耗时的意外，自动化测试因而通过测试套件和测试运行器可以灵活的控制要执行的测试用例。<br>通过这个例子可以看到胎儿大和胎儿压迫作用于每条测试用力的开始和结束之处。</p>
+<p>断言方法。<br>在执行测试用例的过程中，最终测试用例的执行成功与否是通过测试得到的实际结果与预期结果，想进行比较得到的，由你太子的框架中的test case内提供的，用于测试结果的断言方法，如表6-1锁匙。</p>
+<p>测试用例的组织与Discovery方法</p>
+<p>前面针对于。</p>
+<p>前面取得计算机的例子所编写的测试用例存在以下几个问题，首先一个功能对应一条测试用例，这个显然是不够的要写多少测试用例取决于你对功能需求与测试方法的理解，其次测试用例的划分，笔者建议一个测试类对应一个被测试功能。</p>
+<p>The united states中第32年里提供的discover方法，可以从多个文件中查找自身问题，该类可以根据各种标准加载的字是英语并将它们分给测试条件，正常情况下不需要创建这个类的设备，由你太太太太提供了可以共享的地方的特色，就是这样的可以使用其子类或方法，创新实力Discovery方法就是其中之一。<br>找到制定以后，及其子文件下所有的测试模块儿，只有匹配的用户名才能被家长评估，启动的不是点击目录那么点参谋部必须单独制定。</p>
+<p>Discover方法会自动根据测试用例目录探测地点，22查找测试用地文件，测试条件中因此可以通直接通过用的方法执行测试条件，由你自己这种方法直达计划的自身应用的长短，我们需要做的是按照人员匹配和创建测试管理文件即可。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -814,7 +851,7 @@ with open('HTMLReport.html', 'w') as f:
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://HGzhao.github.io/2019/12/27/python-selenium-unittest-framework/">https://HGzhao.github.io/2019/12/27/python-selenium-unittest-framework/</a>
+                    <a href="https://HGzhao.github.io/2019/12/27/python-selenium-unittest-framework-1/">https://HGzhao.github.io/2019/12/27/python-selenium-unittest-framework-1/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1294,30 +1331,29 @@ with open('HTMLReport.html', 'w') as f:
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/27/python-selenium-unittest-framework/">
+                <a href="/2020/01/02/python-selenium-unittest-framework-2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Python + Selenium 单元测试与Unittest框架">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Python + Selenium 单元测试与Unittest框架-2">
                         
-                        <span class="card-title">Python + Selenium 单元测试与Unittest框架</span>
+                        <span class="card-title">Python + Selenium 单元测试与Unittest框架-2</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            单元测试与Unittest框架
+                            单元测试与Unittest框架-2
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-27
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-02
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1330,7 +1366,6 @@ with open('HTMLReport.html', 'w') as f:
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     

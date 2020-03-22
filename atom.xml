@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://HGzhao.github.io/"/>
-  <updated>2020-03-06T01:07:03.390Z</updated>
+  <updated>2020-03-22T14:30:18.599Z</updated>
   <id>https://HGzhao.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Python概念回顾</title>
-    <link href="https://HGzhao.github.io/2020/03/06/pythonbasic-concepts-series/"/>
-    <id>https://HGzhao.github.io/2020/03/06/pythonbasic-concepts-series/</id>
-    <published>2020-03-05T23:49:03.000Z</published>
-    <updated>2020-03-06T01:07:03.390Z</updated>
+    <title>博客部分文章声明</title>
+    <link href="https://HGzhao.github.io/2020/03/12/pythonbasic-concepts-series-copy/"/>
+    <id>https://HGzhao.github.io/2020/03/12/pythonbasic-concepts-series-copy/</id>
+    <published>2020-03-12T00:49:03.000Z</published>
+    <updated>2020-03-22T14:30:18.599Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,33 @@
       
         
         
-          &lt;h1 id=&quot;一句话-Python-概念系列&quot;&gt;&lt;a href=&quot;#一句话-Python-概念系列&quot; class=&quot;headerlink&quot; title=&quot;一句话 Python 概念系列&quot;&gt;&lt;/a&gt;一句话 Python 概念系列&lt;/h1&gt;&lt;h2 id=&quot;2020&quot;&gt;&lt;a
+          &lt;h1 id=&quot;博客部分文章声明&quot;&gt;&lt;a href=&quot;#博客部分文章声明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="https://HGzhao.github.io/categories/Uncategorized/"/>
+    
+    
+      <category term="碎碎念" scheme="https://HGzhao.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何理解if __name__ == &#39;__main__&#39;:</title>
+    <link href="https://HGzhao.github.io/2020/03/08/pythonbasic-name-and-main/"/>
+    <id>https://HGzhao.github.io/2020/03/08/pythonbasic-name-and-main/</id>
+    <published>2020-03-08T01:55:03.000Z</published>
+    <updated>2020-03-22T14:28:41.970Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;一句话-Python-概念系列&quot;&gt;&lt;a href=&quot;#一句话-Python-概念系列&quot; class=&quot;headerlink&quot; title=&quot;一句话 Python 概念系列&quot;&gt;&lt;/a&gt;一句话 Python
         
       
     
@@ -45,11 +71,11 @@
   </entry>
   
   <entry>
-    <title>NG8.0自动化框架代码规范（Python）</title>
-    <link href="https://HGzhao.github.io/2020/02/20/python-automation-named/"/>
-    <id>https://HGzhao.github.io/2020/02/20/python-automation-named/</id>
-    <published>2020-02-19T23:39:33.000Z</published>
-    <updated>2020-02-24T08:59:31.752Z</updated>
+    <title>Python概念回顾</title>
+    <link href="https://HGzhao.github.io/2020/03/06/pythonbasic-concepts-series/"/>
+    <id>https://HGzhao.github.io/2020/03/06/pythonbasic-concepts-series/</id>
+    <published>2020-03-05T23:49:03.000Z</published>
+    <updated>2020-03-22T14:28:48.379Z</updated>
     
     <summary type="html">
     
@@ -57,7 +83,35 @@
       
         
         
-          &lt;h1 id=&quot;NG8-0-自动化框架代码规范（Python）&quot;&gt;&lt;a href=&quot;#NG8-0-自动化框架代码规范（Python）&quot; class=&quot;headerlink&quot; title=&quot;NG8.0 自动化框架代码规范（Python）&quot;&gt;&lt;/a&gt;NG8.0
+          &lt;h1 id=&quot;一句话搞定一个Python概念&quot;&gt;&lt;a href=&quot;#一句话搞定一个Python概念&quot; class=&quot;headerlink&quot; title=&quot;一句话搞定一个Python概念&quot;&gt;&lt;/a&gt;一句话搞定一个Python概念&lt;/h1&gt;&lt;h2 id=&quot;2020&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="https://HGzhao.github.io/categories/Uncategorized/"/>
+    
+    
+      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
+    
+      <category term="python概念" scheme="https://HGzhao.github.io/tags/python%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python自动化框架代码规范</title>
+    <link href="https://HGzhao.github.io/2020/02/20/python-automation-named/"/>
+    <id>https://HGzhao.github.io/2020/02/20/python-automation-named/</id>
+    <published>2020-02-19T23:39:33.000Z</published>
+    <updated>2020-03-22T14:35:21.066Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Python自动化框架代码规范&quot;&gt;&lt;a href=&quot;#Python自动化框架代码规范&quot; class=&quot;headerlink&quot; title=&quot;Python自动化框架代码规范&quot;&gt;&lt;/a&gt;Python自动化框架代码规范&lt;/h1&gt;&lt;h2
         
       
     
@@ -79,7 +133,7 @@
     <link href="https://HGzhao.github.io/2020/02/12/pythonerrors-of-automation/"/>
     <id>https://HGzhao.github.io/2020/02/12/pythonerrors-of-automation/</id>
     <published>2020-02-12T10:49:03.000Z</published>
-    <updated>2020-02-29T08:52:33.735Z</updated>
+    <updated>2020-03-12T00:49:25.253Z</updated>
     
     <summary type="html">
     
@@ -539,70 +593,6 @@
     
     
       <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python + Selenium 小技巧之滑动解锁操作的处理</title>
-    <link href="https://HGzhao.github.io/2019/12/13/python-selenium-webdriver-slide-to-unlock-operations/"/>
-    <id>https://HGzhao.github.io/2019/12/13/python-selenium-webdriver-slide-to-unlock-operations/</id>
-    <published>2019-12-12T23:39:04.000Z</published>
-    <updated>2019-12-13T12:27:14.702Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Python-Selenium-小技巧之滑动解锁操作的处理&quot;&gt;&lt;a href=&quot;#Python-Selenium-小技巧之滑动解锁操作的处理&quot; class=&quot;headerlink&quot; title=&quot;Python + Selenium
-        
-      
-    
-    </summary>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
-    
-      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python + Selenium 小技巧之JavaScript及H5视频的处理</title>
-    <link href="https://HGzhao.github.io/2019/12/12/python-selenium-webdriver-javascript-and-h5-video-operations/"/>
-    <id>https://HGzhao.github.io/2019/12/12/python-selenium-webdriver-javascript-and-h5-video-operations/</id>
-    <published>2019-12-12T11:45:23.000Z</published>
-    <updated>2019-12-12T13:04:01.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;01-JavaScript的调用&quot;&gt;&lt;a href=&quot;#01-JavaScript的调用&quot; class=&quot;headerlink&quot; title=&quot;01 JavaScript的调用&quot;&gt;&lt;/a&gt;01
-        
-      
-    
-    </summary>
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/categories/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="自动化测试" scheme="https://HGzhao.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="Python" scheme="https://HGzhao.github.io/tags/Python/"/>
-    
-      <category term="Selenium" scheme="https://HGzhao.github.io/tags/Selenium/"/>
-    
-      <category term="WebDriver API" scheme="https://HGzhao.github.io/tags/WebDriver-API/"/>
     
   </entry>
   
